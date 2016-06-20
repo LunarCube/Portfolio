@@ -1,2 +1,2 @@
-# Flat-1
-not sure really, trying to find a way to practice what i am learning through action.
+Site 1 practice. Deleted old repositories. I am going to start fresh, and work on more of a project centered approach to learing website developement. Project one will focus and a strong landing page and a call to action. Fully responsive, mobile friendly code and simplicity are key to this design. Gonna try out some of the jquery i have been learning to add some parallax effect.
+I feel like i have been over thing my design a little to much. I am a naturally creative person, but i thrive on improvisation and not the standard approach(Well, my standard approach anyway...). 
