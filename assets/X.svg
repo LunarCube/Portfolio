@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="42" height="40" viewBox="0 0 42 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 56px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "OpenSans-BoldItalic";
+        font-weight: bold;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <text x="20" y="40" class="cls-1"><tspan x="20" class="cls-2">X</tspan></text>
+</svg>
