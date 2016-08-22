@@ -21,9 +21,9 @@ body {
   background-color: #fff;
 }
 body .container-fluid {
-  width: 100vw !important;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 .nav-pop-out, .side-nav {
@@ -39,27 +39,62 @@ header {
 header a {
   color: #141414;
 }
-header > * {
-  display: inline-block;
-}
-header .logo > *, header .quick-nav li, header .cta-header > *, header .hireMe-btn > * {
+header .logo > *, header .quick-nav li, header .cta-header > *, header .hireMe-btn > *, header .nav-btn {
   display: inline-block;
 }
 header .logo {
   background: #141414;
+  padding: 1% 0 1% 2.5%;
 }
 header .logo h4 {
   color: white;
   font-family: 'Merriweather', serif;
 }
+header .logo img {
+  width: 20%;
+}
 header .quick-nav {
   font-style: italic;
+}
+header .quick-nav ul li {
+  margin-right: 20%;
+}
+header .quick-nav ul > :last-child {
+  margin-right: 0;
+}
+header .cta-header {
+  padding-left: 5%;
+}
+header .cta-header p {
+  margin-right: 5%;
+}
+header .hireMe-btn {
+  background: #3cb879;
+}
+header .row {
+  margin: 0;
+  padding: 0;
 }
 
 .landing {
   background-color: #141414;
   color: white;
   text-align: center;
+  margin: 2.47525%;
+  padding: 2.5%;
+}
+.landing .welcome h1, .landing .welcome img {
+  margin-bottom: 5%;
+}
+.landing .cta-main {
+  background-color: #ff7c53;
+  width: 20%;
+  margin: 0 auto 5%;
+  padding: 2% 0;
+}
+.landing .cta-main p {
+  text-align: center;
+  margin: 0;
 }
 
 .vision, .studio, .contact {

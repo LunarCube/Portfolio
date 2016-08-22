@@ -11,25 +11,27 @@ head
 body
 	.container-fluid
 		header
-			a(href="#").logo
-				img.logo-header(src="assets/logo.svg" alt="black and white diamond shaped lunarCube logo")
-				h4 LunarCube
-				
-			.quick-nav
-				ul
-					li 
-						a(href="#") Portfolio
-					li 
-						a(href="#") Blog
-					li 
-						a(href="#") Github
-			.cta-header
-				p Got Work?
-				.hireMe-btn
-					p Hire me!
-			.nav-btn
+			.row
 				a(href="#")
-					img.nav-btn-black(src="assets/burger-btn.svg" alt="Three black lines on a white background, stacked vertically to represent a nav menu button. Kinda looks like a hamburger")
+					.logo.col-lg-2
+						img(src="assets/logo.svg" alt="black and white diamond shaped lunarCube logo")
+						h4 LunarCube
+
+				.quick-nav.col-lg-offset-1.col-lg-3
+					ul
+						li
+							a(href="#") Portfolio
+						li
+							a(href="#") Blog
+						li
+							a(href="#") Github
+				.cta-header.col-lg-offset-2.col-lg-3
+					p Got Work?
+					.hireMe-btn
+						p Hire me!
+				.nav-btn.col-lg-1
+					a(href="#")
+						img.nav-btn-black(src="assets/burger-btn.svg" alt="Three black lines on a white background, stacked vertically to represent a nav menu button. Kinda looks like a hamburger")
 
 			.nav-pop-out
 				.pop-nav-header
@@ -76,7 +78,7 @@ body
 							p Get Started
 						.scroll-icon
 							img.shell(src="assets/scroll-shell.svg", alt="outter shell of scroll icon.")
-							img.wheel(src="assets/scroll-wheel.svg", alt="inside the scroll shell is a mouse wheel animation demonstrating a scroll action to scroll through pages using the mouse wheel. the arrows on your keyboard will also work.")
+							//img.wheel(src="assets/scroll-wheel.svg", alt="inside the scroll shell is a mouse wheel animation demonstrating a scroll action to scroll through pages using the mouse wheel. the arrows on your keyboard will also work.")
 
 			section.vision
 				.vision-content
