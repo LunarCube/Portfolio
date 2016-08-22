@@ -95,6 +95,7 @@ header .row {
 .landing .cta-main p {
   text-align: center;
   margin: 0;
+  color: white;
 }
 
 .vision, .studio, .contact {
