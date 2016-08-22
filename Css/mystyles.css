@@ -20,3 +20,30 @@ body {
   max-width: 100vw;
   background-color: #fff;
 }
+
+.nav-pop-out {
+  display: none;
+}
+
+header {
+  width: 100%;
+  background: white;
+  color: #141414;
+  font-family: 'Merriweather', serif;
+}
+header a {
+  color: #141414;
+}
+header > * {
+  display: inline-block;
+}
+header .logo > *, header .quick-nav li, header .cta-header > *, header .hireMe-btn > * {
+  display: inline-block;
+}
+header .logo {
+  background: #141414;
+}
+header .logo h4 {
+  color: white;
+  font-family: 'Merriweather', serif;
+}
