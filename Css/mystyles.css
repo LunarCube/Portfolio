@@ -20,8 +20,13 @@ body {
   max-width: 100vw;
   background-color: #fff;
 }
+body .container-fluid {
+  width: 100vw !important;
+  margin: 0;
+  padding: 0;
+}
 
-.nav-pop-out {
+.nav-pop-out, .side-nav {
   display: none;
 }
 
@@ -30,6 +35,7 @@ header {
   background: white;
   color: #141414;
   font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 header a {
   color: #141414;
@@ -46,4 +52,17 @@ header .logo {
 header .logo h4 {
   color: white;
   font-family: 'Merriweather', serif;
+}
+header .quick-nav {
+  font-style: italic;
+}
+
+.landing {
+  background-color: #141414;
+  color: white;
+  text-align: center;
+}
+
+.vision, .studio, .contact {
+  display: none;
 }
