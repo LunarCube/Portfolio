@@ -10,6 +10,69 @@ html, body, * {
   line-height: 1.5em;
 }
 
+body {
+  width: 100vw;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.vision, .studio, .contact {
+  display: none;
+}
+
+.nav-pop-out, .sidenav {
+  display: none;
+}
+
+header {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  width: 100%;
+}
+header > * {
+  display: inline-block;
+}
+header .logo {
+  background: #141414;
+  color: white;
+  font-weight: bold;
+}
+header .logo a {
+  color: white;
+  text-decoration: none;
+}
+header .logo a > * {
+  display: inline-block;
+}
+header .logo img {
+  width: 30%;
+}
+header .quick-nav {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
+header .quick-nav ul {
+  list-style-type: none;
+}
+header .quick-nav ul li {
+  display: inline-block;
+}
+header .quick-nav a {
+  color: #141414;
+  text-decoration: none;
+}
+header .cta-header {
+  font-style: italic;
+}
+header .cta-header > * {
+  display: inline-block;
+}
+header .cta-header .hire-btn {
+  background-color: #3cb879;
+}
+header .cta-header a {
+  color: #141414;
+  text-decoration: none;
 }
