@@ -15,8 +15,106 @@ html, body, *{
 *, *:before, *:after{
 	box-sizing: inherit;
 }
+body{
+	width: 100%;
+	max-width: 100%;
+	max-width: 100vw;
+	background-color: #fff;
 
+	.container-fluid{
+		margin: 0;
+		padding: 0;
+		min-height: 100vh;
+	}
+}
+.nav-pop-out, .side-nav{
+	display: none;
+}
 
-// hidden modules 
+header{
+	background: white;
+	color: #141414;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+
+	a{
+		color: #141414;
+	}
+
+	.logo > *, .quick-nav li, .cta-header > *, .hireMe-btn > * ,.nav-btn{
+
+		display:inline-block;
+	}
+	.logo{
+		background: #141414;
+		padding: 1% 0 1% 2.5%;
+
+		h4{
+			color: white;
+			font-family: 'Merriweather', serif;
+		}
+		img{
+			width: 20%;
+		}
+	}
+	.quick-nav{
+		font-style: italic;
+
+		ul li {
+			margin-right: 20%;
+		}
+		ul > :last-child{
+			margin-right: 0;
+		}
+	}
+	.cta-header{
+		padding-left: 5%;
+
+		p{
+			margin-right: 5%;
+		}
+	}
+	.hireMe-btn{
+		background: #3cb879;
+	}
+	.row{
+		margin:0;
+		padding:0;
+	}
+}
+
 // section modules
 
+.landing{
+	background-color: #141414;
+	color: white;
+	text-align: center;
+	margin: percentage(40px/1616px);
+	padding: 2.5%;
+
+	.welcome{
+		h1, img,{
+			margin-bottom: 5%;
+		}
+
+	}
+	.cta-main{
+		background-color: #ff7c53;
+		width: 20%;
+		margin: 0 auto 5%;
+		padding: 2% 0;
+
+		p{
+			text-align: center;
+			margin: 0;
+			color: white;
+		}
+	}
+	main{
+		height: 100%;
+	}
+}
+
+.vision, .studio, .contact{
+	display: none;
+}

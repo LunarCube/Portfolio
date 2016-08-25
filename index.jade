@@ -3,7 +3,7 @@ html(lang="en")
 head
 	meta(charset="UTF-8")
 	link(rel="stylesheet", href="Css/mystyles.css" type="text/css")
-	link(rel="stylesheet", href="Css/bootstrap.css" type="text/css")
+	link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
 	link(rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css")
 	link(href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet") 
 
@@ -13,11 +13,11 @@ body
 		header
 			.row
 				a(href="#")
-					.logo
+					.logo.col-lg-2
 						img(src="assets/logo.svg" alt="black and white diamond shaped lunarCube logo")
 						h4 LunarCube
 
-				.quick-nav
+				.quick-nav.col-lg-offset-1.col-lg-3
 					ul
 						li
 							a(href="#") Portfolio
@@ -25,11 +25,11 @@ body
 							a(href="#") Blog
 						li
 							a(href="#") Github
-				.cta-header
+				.cta-header.col-lg-offset-2.col-lg-3
 					p Got Work?
 					.hireMe-btn
 						p Hire me!
-				.nav-btn
+				.nav-btn.col-lg-1
 					a(href="#")
 						img.nav-btn-black(src="assets/burger-btn.svg" alt="Three black lines on a white background, stacked vertically to represent a nav menu button. Kinda looks like a hamburger")
 
@@ -186,5 +186,4 @@ body
 
 	script(type="text/javascript" src="js/jquery.js")
 	script(type="text/javascript" src="js/myjavascript.js")
-	script(type="text/javascript" src="js/bootstrap.js")
-	
+	script(type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
