@@ -41,16 +41,23 @@ header{
 		background: #141414;
 		color: white;
 		font-weight: bold;
-
+		width: 16.67%;
+		padding: 1.5%;
+		text-align: center;
+		
 		a{
 			color: white;
 			text-decoration: none;
+			width: 100%;
+			display: block;
 		}
 		a > *{
 			display: inline-block;
 		}
 		img{
 			width: 30%;
+			vertical-align: middle;
+			margin-left: -1.5em;
 		}
 
 	}
@@ -87,5 +94,14 @@ header{
 			text-decoration: none;
 
 		}
+	}
+}
+.main-module{
+	.landing{
+		text-align: center;
+		background-color: #141414;
+		color: white;
+		padding: 2.5%;
+		margin: 1% 2.5%;
 	}
 }

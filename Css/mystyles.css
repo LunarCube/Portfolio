@@ -38,16 +38,23 @@ header .logo {
   background: #141414;
   color: white;
   font-weight: bold;
+  width: 16.67%;
+  padding: 1.5%;
+  text-align: center;
 }
 header .logo a {
   color: white;
   text-decoration: none;
+  width: 100%;
+  display: block;
 }
 header .logo a > * {
   display: inline-block;
 }
 header .logo img {
   width: 30%;
+  vertical-align: middle;
+  margin-left: -1.5em;
 }
 header .quick-nav {
   font-family: "Merriweather", serif;
@@ -75,4 +82,12 @@ header .cta-header .hire-btn {
 header .cta-header a {
   color: #141414;
   text-decoration: none;
+}
+
+.main-module .landing {
+  text-align: center;
+  background-color: #141414;
+  color: white;
+  padding: 2.5%;
+  margin: 1% 2.5%;
 }
