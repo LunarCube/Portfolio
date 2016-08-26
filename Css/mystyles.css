@@ -12,6 +12,8 @@ html, body, * {
 
 body {
   width: 100vw;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 *, *:before, *:after {
@@ -115,13 +117,41 @@ header .nav-btn img {
   vertical-align: middle;
 }
 
-.main-module .side-nav {
-  list-style-type: none;
-}
-.main-module .landing {
-  text-align: center;
+.main-module {
   background-color: #141414;
   color: white;
   padding: 2.5%;
-  margin: 1% 2.5%;
+  margin: 2.5%;
+  height: 100%;
+}
+.main-module .side-nav {
+  list-style-type: none;
+  float: right;
+  transform: scaleX(-1);
+  filter: flipH;
+}
+.main-module .side-nav li {
+  margin-bottom: -.5em;
+}
+.main-module .side-nav a {
+  text-decoration: none;
+}
+.main-module .side-nav img {
+  width: 100%;
+}
+.main-module .side-nav .active {
+  width: 100%;
+  height: 100%;
+}
+.main-module .side-nav .next {
+  width: 50%;
+  height: 100%;
+}
+.main-module .side-nav .inactive {
+  width: 25%;
+  height: 100%;
+}
+.main-module .landing {
+  clear: right;
+  text-align: center;
 }

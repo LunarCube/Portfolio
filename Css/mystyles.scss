@@ -14,6 +14,8 @@ html, body, *{
 }
 body{
 	width: 100vw;
+	max-width: 100vw;
+	max-height: 100vh;
 }
 *, *:before, *:after{
 	box-sizing: inherit;
@@ -126,16 +128,31 @@ header{
 	}
 }
 .main-module{
-	
+	background-color: #141414;
+	color: white;
+	padding: 2.5%;
+	margin:  2.5%;
+	height: 100%;
+
 	.side-nav{
 			list-style-type: none;
+			float: right;
+			transform: scaleX(-1);
+			filter: flipH;
+
+			li{margin-bottom: -.5em}
+			a{text-decoration: none;}
+			img{
+				width: 100%;
+			}
+
+			.active{width: 100%; height: 100%;}
+			.next{width: 50%; height: 100%;}
+			.inactive{width: 25%; height: 100%;}
 	}
 
 	.landing{
+		clear: right;
 		text-align: center;
-		background-color: #141414;
-		color: white;
-		padding: 2.5%;
-		margin: 1% 2.5%;
 	}
 }

@@ -60,27 +60,26 @@ body
 						img(src="assets/dribble-icon.svg", alt="dribble logo icon")
 
 	.main-module
+		ul.side-nav
+			li.active
+				a(href="#"): img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.")
+			li.next
+				a(href="#"): img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.")
+			li.inactive
+				a(href="#"): img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.")
+			li.inactive
+				a(href="#"): img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.")
+
 		section.landing
 			main
-				.landing-content
-					ul.side-nav
-						li
-							img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.").active
-						li
-							img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.").next
-						li
-							img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.").inactive
-						li
-							img(src="assets/line.svg", alt="Side navigation representing the location within the main modules, different website locations.").inactive
-							
-					.welcome
-						h1 Take The Day. Design Your Life.
-						img.logo-main(src="assets/logo.svg", alt="black and white diamond shaped lunarCube logo")
-					.cta-main
-						p Get Started
-					.scroll-icon
-						img.shell(src="assets/scroll-shell.svg", alt="outter shell of scroll icon.")
-						//img.wheel(src="assets/scroll-wheel.svg", alt="inside the scroll shell is a mouse wheel animation demonstrating a scroll action to scroll through pages using the mouse wheel. the arrows on your keyboard will also work.")
+				.welcome
+					h1 Take The Day. Design Your Life.
+					img.logo-main(src="assets/logo.svg", alt="black and white diamond shaped lunarCube logo")
+				.cta-main
+					p Get Started
+				.scroll-icon
+					img.shell(src="assets/scroll-shell.svg", alt="outter shell of scroll icon.")
+					//img.wheel(src="assets/scroll-wheel.svg", alt="inside the scroll shell is a mouse wheel animation demonstrating a scroll action to scroll through pages using the mouse wheel. the arrows on your keyboard will also work.")
 
 		section.vision
 			.vision-content
