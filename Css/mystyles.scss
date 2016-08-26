@@ -22,7 +22,7 @@ body{
 .vision, .studio, .contact, {
 	display: none;
 }
-.nav-pop-out, .sidenav{
+.nav-pop-out, {
 	display: none;
 }
 // Layout & Styles
@@ -44,20 +44,18 @@ header{
 		width: 16.67%;
 		padding: 1.5%;
 		text-align: center;
-		
-		a{
-			color: white;
-			text-decoration: none;
-			width: 100%;
-			display: block;
-		}
-		a > *{
-			display: inline-block;
-		}
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+
 		img{
 			width: 30%;
 			vertical-align: middle;
 			margin-left: -1.5em;
+			display: inline-block;
+		}
+		h4{
+			display: inline-block;
 		}
 
 	}
@@ -65,12 +63,21 @@ header{
 
 		font-family: $font-p;
 		font-style: italic;
+		width: 26.99%;
+		text-align: center;
+		margin-left: 8.33%;
 
 		ul{
 			list-style-type: none;
+			width: 100%;
+
 			li{
 				display: inline-block;
+				width: 30%;
 			}
+			li:nth-child(2){ 
+					margin: 0 1.5%;
+				}
 		}
 
 		a{
@@ -82,21 +89,48 @@ header{
 	.cta-header{
 
 		font-style: italic;
+		margin-left: 11.5%;
+		width: 24.99%;
+		text-align: right;
+
+		@media screen and (min-width:1200px){
+			margin-left: 12.5%;
+		}
+		@media screen and (min-width:1500px){
+			margin-left: 14.5%;
+		}
 
 		> *{
 			display: inline-block;
 		}
 		.hire-btn{
 			background-color: #3cb879;
+			padding: 9% 15%;
+			margin-left: 2.5%;
+			margin-right: .5%;
 		}
 		a{
 			color: #141414;
 			text-decoration: none;
+		}
+	}
+	.nav-btn{
+		margin-left: 2.2%;
 
+		a{
+			display: block;
+		}
+		img{
+			vertical-align: middle;
 		}
 	}
 }
 .main-module{
+	
+	.side-nav{
+			list-style-type: none;
+	}
+
 	.landing{
 		text-align: center;
 		background-color: #141414;

@@ -22,7 +22,7 @@ body {
   display: none;
 }
 
-.nav-pop-out, .sidenav {
+.nav-pop-out {
   display: none;
 }
 
@@ -41,30 +41,36 @@ header .logo {
   width: 16.67%;
   padding: 1.5%;
   text-align: center;
-}
-header .logo a {
   color: white;
   text-decoration: none;
-  width: 100%;
-  display: block;
-}
-header .logo a > * {
   display: inline-block;
 }
 header .logo img {
   width: 30%;
   vertical-align: middle;
   margin-left: -1.5em;
+  display: inline-block;
+}
+header .logo h4 {
+  display: inline-block;
 }
 header .quick-nav {
   font-family: "Merriweather", serif;
   font-style: italic;
+  width: 26.99%;
+  text-align: center;
+  margin-left: 8.33%;
 }
 header .quick-nav ul {
   list-style-type: none;
+  width: 100%;
 }
 header .quick-nav ul li {
   display: inline-block;
+  width: 30%;
+}
+header .quick-nav ul li:nth-child(2) {
+  margin: 0 1.5%;
 }
 header .quick-nav a {
   color: #141414;
@@ -72,18 +78,46 @@ header .quick-nav a {
 }
 header .cta-header {
   font-style: italic;
+  margin-left: 11.5%;
+  width: 24.99%;
+  text-align: right;
+}
+@media screen and (min-width: 1200px) {
+  header .cta-header {
+    margin-left: 12.5%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  header .cta-header {
+    margin-left: 14.5%;
+  }
 }
 header .cta-header > * {
   display: inline-block;
 }
 header .cta-header .hire-btn {
   background-color: #3cb879;
+  padding: 9% 15%;
+  margin-left: 2.5%;
+  margin-right: .5%;
 }
 header .cta-header a {
   color: #141414;
   text-decoration: none;
 }
+header .nav-btn {
+  margin-left: 2.2%;
+}
+header .nav-btn a {
+  display: block;
+}
+header .nav-btn img {
+  vertical-align: middle;
+}
 
+.main-module .side-nav {
+  list-style-type: none;
+}
 .main-module .landing {
   text-align: center;
   background-color: #141414;
