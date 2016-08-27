@@ -132,8 +132,8 @@ header{
 	background-color: #141414;
 	color: white;
 	padding: 2.5%;
-	margin:  2.5%;
-	height: 100%;
+	margin: 2.5% 2.5%;
+	max-height: 100%;
 
 	.side-nav{
 			list-style-type: none;
@@ -155,5 +155,46 @@ header{
 	.landing{
 		clear: right;
 		text-align: center;
+		font-family: $font-p;
+
+		h1{
+			font-size: 44px;
+			margin-bottom: 3%;
+		}
+		.cta-main{
+			color: #141414;
+			background: #ff7c53;
+			font-size: 16px;
+			font-family: inherit;
+			font-style: italic;
+			font-weight: 600;
+			margin: 2.3% 40%;
+
+			p{
+				padding: 10%;
+			}
+			a{
+				text-decoration: none;
+				color: #141414;
+			}
+		}
+		.scroll-icon{
+			margin-top: 2.5%;
+
+			svg{
+				width: 2%;
+			}
+			.shell{
+				fill:none;
+				stroke:#FFFFFF;
+				stroke-width:3;
+			}
+			.wheel{
+				fill:#FFFFFF;
+			}
+		}
 	}
 }
+//svg rule
+
+

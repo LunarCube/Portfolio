@@ -121,8 +121,8 @@ header .nav-btn img {
   background-color: #141414;
   color: white;
   padding: 2.5%;
-  margin: 2.5%;
-  height: 100%;
+  margin: 2.5% 2.5%;
+  max-height: 100%;
 }
 .main-module .side-nav {
   list-style-type: none;
@@ -154,4 +154,39 @@ header .nav-btn img {
 .main-module .landing {
   clear: right;
   text-align: center;
+  font-family: "Merriweather", serif;
+}
+.main-module .landing h1 {
+  font-size: 44px;
+  margin-bottom: 3%;
+}
+.main-module .landing .cta-main {
+  color: #141414;
+  background: #ff7c53;
+  font-size: 16px;
+  font-family: inherit;
+  font-style: italic;
+  font-weight: 600;
+  margin: 2.3% 40%;
+}
+.main-module .landing .cta-main p {
+  padding: 10%;
+}
+.main-module .landing .cta-main a {
+  text-decoration: none;
+  color: #141414;
+}
+.main-module .landing .scroll-icon {
+  margin-top: 2.5%;
+}
+.main-module .landing .scroll-icon svg {
+  width: 2%;
+}
+.main-module .landing .scroll-icon .shell {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 3;
+}
+.main-module .landing .scroll-icon .wheel {
+  fill: #FFFFFF;
 }
