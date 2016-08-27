@@ -8,58 +8,57 @@ head
 
 	title LunarCube Studios
 body
-	.wrapper
-		header
-			a.logo(href="#")
-				img(src="assets/logo.svg" alt="black and white diamond shaped lunarCube logo")
-				h4 LunarCube
+	header
+		a.logo(href="#")
+			img(src="assets/logo.svg" alt="black and white diamond shaped lunarCube logo")
+			h4 LunarCube
 
-			.quick-nav
+		.quick-nav
+			ul
+				li
+					a(href="#") Portfolio
+				li
+					a(href="#") Blog
+				li
+					a(href="#") Github
+
+		.cta-header
+			p Got Work?
+			a.hire-btn(href="#") Hire me!
+				
+
+		.nav-btn
+			a(href="#")
+				img.nav-btn-black(src="assets/burger-btn.svg" alt="Three black lines on a white background, stacked vertically to represent a nav menu button. Kinda looks like a hamburger")
+
+		.nav-pop-out
+			.pop-nav-header
+				img(src="assets/X.svg", alt="exit icon")
+
+			.pop-nav-content
 				ul
 					li
-						a(href="#") Portfolio
+						a(href="#") Home
 					li
-						a(href="#") Blog
+						a(href="#") Vision
 					li
-						a(href="#") Github
+						a(href="#") Studio
+					li
+						a(href="#") Contact
+					li
+						a(href="#") Resume
+				hr
 
-			.cta-header
-				p Got Work?
-				a.hire-btn(href="#") Hire me!
-					
-
-			.nav-btn
-				a(href="#")
-					img.nav-btn-black(src="assets/burger-btn.svg" alt="Three black lines on a white background, stacked vertically to represent a nav menu button. Kinda looks like a hamburger")
-
-			.nav-pop-out
-				.pop-nav-header
-					img(src="assets/X.svg", alt="exit icon")
-
-				.pop-nav-content
-					ul
-						li
-							a(href="#") Home
-						li
-							a(href="#") Vision
-						li
-							a(href="#") Studio
-						li
-							a(href="#") Contact
-						li
-							a(href="#") Resume
-					hr
-
-					.side-nav-social-wrapper
-						a(href="#")
-							img(src="assets/twitter-icon.svg", alt="twitter logo icon")
-						a(href="#")
-							img(src="assets/facebook-icon.svg", alt="facebook logo icon")
-						a(href="#")
-							img(src="assets/linkedin-icon.svg", alt="linkedin logo icon")
-						a(href="#")
-							img(src="assets/dribble-icon.svg", alt="dribble logo icon")
-
+				.side-nav-social-wrapper
+					a(href="#")
+						img(src="assets/twitter-icon.svg", alt="twitter logo icon")
+					a(href="#")
+						img(src="assets/facebook-icon.svg", alt="facebook logo icon")
+					a(href="#")
+						img(src="assets/linkedin-icon.svg", alt="linkedin logo icon")
+					a(href="#")
+						img(src="assets/dribble-icon.svg", alt="dribble logo icon")
+	.wrapper
 		.main-module
 			ul.side-nav
 				li.active
