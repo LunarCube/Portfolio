@@ -4,13 +4,14 @@ $font-s: 'Open Sans', sans-serif;
 
 html{
 	box-sizing: border-box;
+	-ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
 	height: 100vh;
 	width: 100vw;
 }
 html, body, *{
 	padding: 0;
 	margin: 0;
-	line-height: 1.5em;
 }
 *, *:before, *:after{
 	box-sizing: inherit;
@@ -19,61 +20,113 @@ body{
 	width: 100%;
 	height: 100%;
 	font-family: $font-p;
-	font-size: 16px;
+}
+.container{
+  width: 100vw;
 }
 
-// Layout & Styles
+//////////////////////////////////////////////////////////////////Layout & Styles
+header{
+
+  a{
+    text-decoration: none;
+  }
+
+  ul{
+    list-style-type: none;
+    li{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .logo{
+    background: #141414;
+    color: white;
+
+
+    a{
+      color:white;
+    }
+
+    img{
+      width: 30%;
+      margin: 5.5% .5%;
+      vertical-align:  middle;
+    }
+
+    img, h5{
+      display: inline-block;
+    }
+  }
+
+  .quick-nav{
+    background: red;
+    a{
+      color: #141414;
+    }
+  }
+  .cta-header{
+    background:pink;
+    a{
+      color: #141414;
+    }
+    > *{
+      display: inline-block;
+    }
+  }
+  .hire-btn{
+      background: #3cb879;
+      a{
+        color: #141414;
+      }
+    }
+  .nav-btn{
+  }
+}/*--------------------------------------------header End-----------------------------*/
 
 
 
-// @screen 480px
-//@screen 768px
-//@screen 992px
-//@screen > 1200px
 
 
 
 
 
-
-
-//svg rule
+//////////////////////////////////////////////////////////////////svg rules
 .scroll-icon{
-			margin-top: 2.5%;
+  margin-top: 2.5%;
 
-			svg{
-				width: 2%;
-			}
-			.shell{
-				fill:none;
-				stroke:#FFFFFF;
-				stroke-width:3;
-			}
-			.wheel{
-				fill:#FFFFFF;
-			}
-		}
-//nav module
+  svg{
+  	width: 2%;
+  }
+  .shell{
+  	fill:none;
+  	stroke:#FFFFFF;
+  	stroke-width:3;
+  }
+  .wheel{
+  	fill:#FFFFFF;
+  }
+  }
+//////////////////////////////////////////////////////////////nav module
 .side-nav{
-			list-style-type: none;
-			float: right;
-			transform: scaleX(-1);
-			filter: flipH;
+  list-style-type: none;
+  float: right;
+  transform: scaleX(-1);
+  filter: flipH;
 
-			li{margin-bottom: -.5em}
-			a{text-decoration: none;}
-			img{
-				width: 100%;
-			}
+  li{margin-bottom: -.5em}
+  a{text-decoration: none;}
+  img{
+  	width: 100%;
+  }
 
-			.active{width: 100%; height: 100%;}
-			.next{width: 50%; height: 100%;}
-			.inactive{width: 25%; height: 100%;}
+  .active{width: 100%; height: 100%;}
+  .next{width: 50%; height: 100%;}
+  .inactive{width: 25%; height: 100%;}
 	}
-//modules-hidden
-.vision, .studio, .contact, {
+////////////////////////////////////////////////////////////modules-hidden
+.vision, .studio, .contact, .scroll-icon, .side-nav, .nav-pop-out {
 	display: none;
 }
-.nav-pop-out, {
-	display: none;
-}
+////////////////////////////////////////////////////////////

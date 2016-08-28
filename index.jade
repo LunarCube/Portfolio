@@ -4,7 +4,6 @@ head
 	meta(charset="UTF-8")
 	meta(name="viewport" content="width=device-width, initial-scale=1")
 	link(rel="stylesheet", href="Css/mystyles.css" type="text/css")
-	link(rel="stylesheet", href="Css/normalize.css" type="text/css")
 	link(rel="stylesheet", href="Css/skeleton.css" type="text/css")
 	link(href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet")
 
@@ -12,12 +11,12 @@ head
 	title LunarCube Studios
 body
 	.container
-		header
-			a.logo(href="#")
+		header.row
+			a.two.columns.logo(href="#")
 				img(src="assets/logo.svg" alt="black and white diamond shaped lunarCube logo")
-				h4 LunarCube
+				h5 LunarCube
 
-			.quick-nav
+			.quick-nav.offset-by-one.column.three.columns
 				ul
 					li
 						a(href="#") Portfolio
@@ -26,12 +25,13 @@ body
 					li
 						a(href="#") Github
 
-			.cta-header
+			.cta-header.offset-by.two.columns.one.column
 				p Got Work?
-				a.hire-btn(href="#") Hire me!
+			.hire-btn.two.columns
+				a(href="#") Hire me!
 					
 
-			.nav-btn
+			.nav-btn.one.column.u-pull-right
 				a(href="#")
 					img.nav-btn-black(src="assets/burger-btn.svg" alt="Three black lines on a white background, stacked vertically to represent a nav menu button. Kinda looks like a hamburger")
 
