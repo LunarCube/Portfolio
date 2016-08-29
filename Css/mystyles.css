@@ -102,13 +102,13 @@ header .header-cta p, header .header-cta a {
   text-align: center;
 }
 header .header-cta p {
-  width: 40%;
+  width: 30%;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 header .header-cta a {
-  width: 60%;
+  width: 70%;
   color: #141414;
   background: #3cb879;
 }
@@ -138,6 +138,31 @@ header .nav-btn img {
 .landing {
   width: 100%;
   height: 100%;
+  color: white;
+  text-align: center;
+}
+.landing .landing-cta {
+  background: #ff7c53;
+  width: 15%;
+  height: 10%;
+  margin: 0 auto;
+}
+.landing .landing-cta a {
+  height: 100%;
+  width: 100%;
+  color: #141414;
+  text-decoration: none;
+  display: block;
+}
+.landing .landing-cta p {
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.landing .landing-cta .landing-logo {
+  width: 10%;
 }
 
 .scroll-icon {
@@ -183,7 +208,7 @@ header .nav-btn img {
   height: 100%;
 }
 
-.vision, .studio, .contact, .scroll-icon, .side-nav, .nav-pop-out {
+.vision, .studio, .contact, .side-nav, .nav-pop-out {
   display: none;
 }
 
