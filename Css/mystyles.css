@@ -22,57 +22,10 @@ body {
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 
-header a {
-  text-decoration: none;
-}
-header ul {
-  list-style-type: none;
-}
-header ul li {
-  display: inline-block;
-  vertical-align: middle;
-}
-header .logo {
-  background: #141414;
-  color: white;
-}
-header .logo a {
-  color: white;
-}
-header .logo img {
-  width: 30%;
-  margin: 5.5% .5%;
-  vertical-align: middle;
-}
-header .logo img, header .logo h5 {
-  display: inline-block;
-}
-header .quick-nav {
-  background: red;
-}
-header .quick-nav a {
-  color: #141414;
-}
-header .cta-header {
-  background: pink;
-}
-header .cta-header a {
-  color: #141414;
-}
-header .cta-header > * {
-  display: inline-block;
-}
-header .hire-btn {
-  background: #3cb879;
-}
-header .hire-btn a {
-  color: #141414;
-}
-
-/*--------------------------------------------header End-----------------------------*/
 .scroll-icon {
   margin-top: 2.5%;
 }

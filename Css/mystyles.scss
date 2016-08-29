@@ -22,68 +22,11 @@ body{
 	font-family: $font-p;
 }
 .container{
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 
 //////////////////////////////////////////////////////////////////Layout & Styles
-header{
-
-  a{
-    text-decoration: none;
-  }
-
-  ul{
-    list-style-type: none;
-    li{
-      display: inline-block;
-      vertical-align: middle;
-    }
-  }
-
-  .logo{
-    background: #141414;
-    color: white;
-
-
-    a{
-      color:white;
-    }
-
-    img{
-      width: 30%;
-      margin: 5.5% .5%;
-      vertical-align:  middle;
-    }
-
-    img, h5{
-      display: inline-block;
-    }
-  }
-
-  .quick-nav{
-    background: red;
-    a{
-      color: #141414;
-    }
-  }
-  .cta-header{
-    background:pink;
-    a{
-      color: #141414;
-    }
-    > *{
-      display: inline-block;
-    }
-  }
-  .hire-btn{
-      background: #3cb879;
-      a{
-        color: #141414;
-      }
-    }
-  .nav-btn{
-  }
-}/*--------------------------------------------header End-----------------------------*/
 
 
 
