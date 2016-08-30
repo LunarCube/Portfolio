@@ -125,7 +125,7 @@ header .nav-btn img {
 
 .main-wrapper {
   width: 100%;
-  height: 100%;
+  height: 85%;
   padding: 2.5%;
 }
 
@@ -140,11 +140,15 @@ header .nav-btn img {
   height: 100%;
   color: white;
   text-align: center;
+  padding-top: 5%;
+}
+.landing .content h2, .landing .content img {
+  margin-bottom: 3%;
 }
 .landing .landing-cta {
   background: #ff7c53;
   width: 15%;
-  height: 10%;
+  height: 15%;
   margin: 0 auto;
 }
 .landing .landing-cta a {
@@ -156,17 +160,14 @@ header .nav-btn img {
 }
 .landing .landing-cta p {
   font-style: italic;
-  font-weight: bold;
+  font-weight: 600;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.landing .landing-cta .landing-logo {
-  width: 10%;
-}
 
 .scroll-icon {
-  margin-top: 2.5%;
+  margin-top: 3.5%;
 }
 .scroll-icon svg {
   width: 2%;
