@@ -102,15 +102,18 @@ header .header-cta p, header .header-cta a {
   text-align: center;
 }
 header .header-cta p {
-  width: 30%;
+  width: 40%;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 header .header-cta a {
-  width: 70%;
+  width: 60%;
   color: #141414;
   background: #3cb879;
+}
+header .header-cta a p {
+  width: 80%;
 }
 header .nav-btn {
   height: 100%;
@@ -133,6 +136,7 @@ header .nav-btn img {
   width: 100%;
   height: 100%;
   background: #141414;
+  position: relative;
 }
 
 .landing {
@@ -141,6 +145,10 @@ header .nav-btn img {
   color: white;
   text-align: center;
   padding-top: 5%;
+}
+.landing .content h2 {
+  width: 80%;
+  margin: 0 auto;
 }
 .landing .content h2, .landing .content img {
   margin-bottom: 3%;
@@ -183,9 +191,15 @@ header .nav-btn img {
 
 .side-nav {
   list-style-type: none;
-  float: right;
+  position: absolute;
+  top: 5.5%;
+  right: 1.5%;
   transform: scaleX(-1);
   filter: flipH;
+  text-align: left;
+}
+.side-nav ul {
+  list-style-type: none;
 }
 .side-nav li {
   margin-bottom: -.5em;
@@ -195,6 +209,7 @@ header .nav-btn img {
 }
 .side-nav img {
   width: 100%;
+  height: 100%;
 }
 .side-nav .active {
   width: 100%;
@@ -209,7 +224,7 @@ header .nav-btn img {
   height: 100%;
 }
 
-.vision, .studio, .contact, .side-nav, .nav-pop-out {
+.vision, .studio, .contact, .nav-pop-out {
   display: none;
 }
 

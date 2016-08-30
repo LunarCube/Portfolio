@@ -39,6 +39,7 @@ header{
     text-decoration: none;
     height: 100%;
   }
+
   ul{
     list-style-type: none;
     text-align: center;
@@ -55,6 +56,7 @@ header{
       margin: 0 10%;
     }
   }
+
   .logo{
     background: black;
     height: 100%;
@@ -78,6 +80,7 @@ header{
       font-weight: bold;
     }
   }
+
   .quick-nav{
     height: 100%;
     width: 100%;
@@ -89,6 +92,7 @@ header{
       color: #141414;
     }
   }
+
   .header-cta{
     height: 100%;
     width: 100%;
@@ -100,17 +104,21 @@ header{
       text-align: center;
     }
     p{
-      width: 30%;
+      width: 40%;
       position: relative;
       top: 50%;
       transform: translateY(-50%);
     }
     a{
-      width: 70%;
+      width: 60%;
       color: #141414;
       background: #3cb879;
+      p{
+        width: 80%;
+      }
     }
   }
+
   .nav-btn{
     height: 100%;
     width: 100%;
@@ -128,10 +136,12 @@ header{
   height: 85%;
   padding: 2.5%;
 }
+
 .main-module{
   width: 100%;
   height: 100%;
   background: #141414;
+  position: relative;
 }
 //////////////////////////////////////////////////////////////////main module end
 .landing{
@@ -140,16 +150,23 @@ header{
   color: white;
   text-align: center;
   padding-top: 5%;
+
   .content{
+    h2{
+      width: 80%;
+      margin: 0 auto;
+    }
     h2, img{
       margin-bottom: 3%;
     }
   }
+
   .landing-cta{
     background: #ff7c53;
     width: 15%;
     height: 15%;
     margin: 0 auto;
+
     a{
       height: 100%;
       width: 100%;
@@ -157,6 +174,7 @@ header{
       text-decoration: none;
       display: block;
     }
+
     p{
       font-style: italic;
       font-weight: 600;
@@ -187,22 +205,28 @@ header{
 //////////////////////////////////////////////////////////////nav module
 .side-nav{
   list-style-type: none;
-  float: right;
+  position: absolute;
+  top: 5.5%;
+  right: 1.5%;
+  //float: right;
+  //position: relative;
+  //top: -98%;
+  //margin-right: 2%;
   transform: scaleX(-1);
   filter: flipH;
+  text-align: left;
 
+  ul{list-style-type: none;}
   li{margin-bottom: -.5em}
   a{text-decoration: none;}
-  img{
-  	width: 100%;
-  }
+  img{width: 100%; height: 100%;}
 
   .active{width: 100%; height: 100%;}
   .next{width: 50%; height: 100%;}
   .inactive{width: 25%; height: 100%;}
 	}
 ////////////////////////////////////////////////////////////modules-hidden
-.vision, .studio, .contact, .side-nav, .nav-pop-out {
+.vision, .studio, .contact, .nav-pop-out {
 	display: none;
 }
 ////////////////////////////////////////////////////////////
