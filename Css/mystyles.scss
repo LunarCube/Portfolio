@@ -58,7 +58,7 @@ header{
   }
 
   .logo{
-    background: black;
+    background: #141414;
     height: 100%;
     width: 100%;
     padding-left: 3.5%;
@@ -240,3 +240,60 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
               path.shell(d="M-223,228.5h1c6.4,0,11.5,5.1,11.5,11.5v22c0,6.4-5.1,11.5-11.5,11.5h-1c-6.4,0-11.5-5.1-11.5-11.5v-22 C-234.5,233.6-229.4,228.5-223,228.5z")
               path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
 */
+////////////////////////////////////////////////////////////media querries
+@media screen and (max-width: 1400px) {
+  .landing {
+    padding-top: 7%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .landing {
+    padding-top: 10%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .landing{
+    padding-top: 11.5%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .landing {
+    padding-top: 14.5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  header{
+    .logo{
+      padding-left: 2%;
+    }
+    .quick-nav{
+      :nth-child(2){
+      margin: 0 5%;
+      }
+    }
+
+    .header-cta{
+      p{
+        width: 50%;
+      }
+      a{
+        width: 50%;
+        color: #141414;
+        background: #3cb879;
+        p{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .landing {
+    padding-top: 15%;
+
+    h2{
+      line-height: 1.4;
+    }
+  }
+}
+
+//////////////////////////////////////////////////////// end Media css
