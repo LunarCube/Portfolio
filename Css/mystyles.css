@@ -397,7 +397,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .landing {
-    padding-top: 16%;
+    padding-top: 20%;
   }
   .landing .scroll-icon svg {
     width: 4%;
@@ -405,10 +405,60 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 500px) {
   .landing {
-    padding-top: 25%;
+    padding-top: 23.5%;
   }
 
   .scroll-icon svg {
     width: 4%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .landing {
+    padding-top: 23.5%;
+  }
+  .landing .landing-cta {
+    width: 32.5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landing {
+    padding-top: 25%;
+  }
+  .landing .landing-cta {
+    width: 34.5%;
+  }
+  .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
+    margin-top: 3.5%;
+  }
+  .landing .scroll-icon svg {
+    width: 5%;
+  }
+}
+@media screen and (max-width: 409px) {
+  .landing {
+    padding-top: 26%;
+  }
+  .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
+    margin-top: 3%;
+  }
+  .landing .landing-cta {
+    width: 40%;
+  }
+  .landing .scroll-icon svg {
+    width: 5%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .landing {
+    padding-top: 32%;
+  }
+  .landing .landing-cta {
+    width: 45%;
+  }
+  .landing .scroll-icon svg {
+    width: 6%;
+  }
+  .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
+    margin-top: 4%;
   }
 }
