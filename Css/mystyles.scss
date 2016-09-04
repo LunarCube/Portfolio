@@ -248,7 +248,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1200px) {
   .landing {
-    padding-top: 10%;
+    padding-top: 8%;
 
     .landing-cta{
       width: 21.5%;
@@ -257,15 +257,22 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1100px) {
   .landing{
-    padding-top: 11.5%;
+    padding-top: 9.5%;
+
+    .scroll-icon svg, .landing-cta{
+      margin-top: 1%;
+    }
   }
 }
 @media screen and (max-width: 1000px) {
   .landing {
-    padding-top: 14.5%;
+    padding-top: 10.5%;
 
     .landing-cta{
       width: 25%;
+    }
+    .scroll-icon svg{
+      width: 2.5%;
     }
   }
 }
@@ -296,7 +303,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .landing {
-    padding-top: 14.5%;
+    padding-top: 12.5%;
 
     .content{
       h2{
@@ -327,7 +334,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     .quick-nav{
       font-size: 13px;
       :nth-child(2){
-      margin: 0 3.5%;
+      margin: 0 5%;
       }
     }
 
@@ -348,6 +355,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing{
     .landing-cta{
       width: 25%;
+    }
+    .scroll-icon svg{
+      width: 3%;
     }
   }
 }
@@ -390,10 +400,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
     }
     .landing-cta{
-      width: 25%;
+      width: 30%;
     }
     .scroll-icon{
-      margin-top: 8%;
+      margin-top: 7%;
     }
   }
 }
@@ -407,12 +417,29 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 600px) {
+  header{
+    .quick-nav{
+      display: none;
+    }
+  }
   .landing{
     padding-top: 16%;
+
+    .scroll-icon svg{
+      width: 4%;
+    }
   }
 }
 @media screen and (max-width: 500px) {
-  
+  header{
+    .nav-btn{}
+  }
+.landing{
+  padding-top: 25%;
+  }
+  .scroll-icon svg{
+    width: 4%;
+  }
 }
 @media screen and (max-width: 400px) {
   

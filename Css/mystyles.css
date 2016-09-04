@@ -255,7 +255,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1200px) {
   .landing {
-    padding-top: 10%;
+    padding-top: 8%;
   }
   .landing .landing-cta {
     width: 21.5%;
@@ -263,15 +263,21 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1100px) {
   .landing {
-    padding-top: 11.5%;
+    padding-top: 9.5%;
+  }
+  .landing .scroll-icon svg, .landing .landing-cta {
+    margin-top: 1%;
   }
 }
 @media screen and (max-width: 1000px) {
   .landing {
-    padding-top: 14.5%;
+    padding-top: 10.5%;
   }
   .landing .landing-cta {
     width: 25%;
+  }
+  .landing .scroll-icon svg {
+    width: 2.5%;
   }
 }
 @media screen and (max-width: 900px) {
@@ -294,7 +300,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .landing {
-    padding-top: 14.5%;
+    padding-top: 12.5%;
   }
   .landing .content h2 {
     width: 80%;
@@ -322,7 +328,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     font-size: 13px;
   }
   header .quick-nav :nth-child(2) {
-    margin: 0 3.5%;
+    margin: 0 5%;
   }
   header .header-cta p {
     width: 50%;
@@ -338,6 +344,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 
   .landing .landing-cta {
     width: 25%;
+  }
+  .landing .scroll-icon svg {
+    width: 3%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -371,10 +380,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     margin-bottom: 5%;
   }
   .landing .landing-cta {
-    width: 25%;
+    width: 30%;
   }
   .landing .scroll-icon {
-    margin-top: 8%;
+    margin-top: 7%;
   }
 }
 @media screen and (max-width: 650px) {
@@ -383,7 +392,23 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 600px) {
+  header .quick-nav {
+    display: none;
+  }
+
   .landing {
     padding-top: 16%;
+  }
+  .landing .scroll-icon svg {
+    width: 4%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .landing {
+    padding-top: 25%;
+  }
+
+  .scroll-icon svg {
+    width: 4%;
   }
 }
