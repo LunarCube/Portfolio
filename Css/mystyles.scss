@@ -203,21 +203,22 @@ header{
 }
 .vision{
   padding-top: 4%;
-  padding-left: 6.5%;
+  padding-left: 7%;
   font-family: $font-p;
 
   .content{
     position: relative;
+    width: 100%;
 
     h1{
       float: right;
       color: white;
-      font-size: 80px;
-      width: 65%;
+      font-size: 92px;
+      width: 70%;
       font-weight: bold;
       position: relative;
-      margin-top: 3.5%;
-      transform: translateX(-22%);
+      margin-top: 3%;
+      transform: translateX(-12%);
     }
     p{
       color: white;
@@ -225,8 +226,8 @@ header{
       font-size: 22px;
       width: 55%;
       position: absolute;
-      top: 58%;
-      left: 21.5%;
+      top: 61%;
+      left: 22.5%;
       line-height: 1.5;
     }
   }
