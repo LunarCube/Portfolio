@@ -220,7 +220,7 @@ header .nav-btn img {
   line-height: 1.5;
 }
 .vision .scroll-icon {
-  transform: translateY(-50%);
+  transform: translateY(-45%);
   text-align: center;
   position: relative;
 }
