@@ -1,6 +1,7 @@
 /* This is where my Js goes*/
 
 $(document).ready(function(){
+//////////////////////////////////////////////////////////on load
 	$(window).load(function(){
 		var viewportWidth = $(window).width();
 		if (viewportWidth <= 700){
@@ -14,11 +15,12 @@ $(document).ready(function(){
 		};
 	});
 
-
+///////////////////////////////////////////////////////on resize
 	$(window).resize(function(){
+
 		var viewportWidth = $(window).width();
 		if (viewportWidth >= 700){
-			$('.logo').removeClass('six three columns').addClass('three columns');
+			$('.logo').removeClass('six three ten columns').addClass('three columns');
 			$('.quick-nav').removeClass('three four columns').addClass('three columns');
 			$('.header-cta').removeClass('offset-by-two three columns').addClass('offset-by-two three columns');
 			$('.nav-btn').removeClass('one two column columns').addClass('one column');
@@ -29,7 +31,10 @@ $(document).ready(function(){
 			$('.header-cta').removeClass('offset-by-two three columns');
 			$('.nav-btn').removeClass('one column').addClass('two columns');
 		}else if(viewportWidth < 600){
-			$('.logo').removeClass('six columns').addClass('ten columns')
+			$('.logo').removeClass('six columns').addClass('ten columns');
+			$('.nav-btn').removeClass('one column').addClass('two columns');
 		}
-	})
+	});
+////////////////////////////////////////////////////////after script check
+
 });
