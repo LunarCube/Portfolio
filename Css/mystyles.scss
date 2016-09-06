@@ -183,27 +183,75 @@ header{
       transform: translateY(-50%);
     }
   }
-}
-
-
-//////////////////////////////////////////////////////////////////svg rules
-.scroll-icon{
+  .scroll-icon{
   margin-top: 3.5%;
   position: relative;
 
-  svg{
-  	width: 2%;
-  }
-  .shell{
-  	fill:none;
-  	stroke:#FFFFFF;
-  	stroke-width:3;
-  }
-  .wheel{
-  	fill:#FFFFFF;
-    animation: myScroll 1.5s infinite;
+    svg{
+      width: 2%;
+    }
+    .shell{
+      fill:none;
+      stroke:#FFFFFF;
+      stroke-width:3;
+    }
+    .wheel{
+      fill:#FFFFFF;
+      animation: myScroll 1.5s infinite;
+    }
   }
 }
+.vision{
+  padding-top: 4%;
+  padding-left: 6.5%;
+  font-family: $font-p;
+
+  .content{
+    position: relative;
+
+    h1{
+      float: right;
+      color: white;
+      font-size: 80px;
+      width: 65%;
+      font-weight: bold;
+      position: relative;
+      margin-top: 4%;
+      transform: translateX(-22%);
+    }
+    p{
+      color: white;
+      font-family: $font-s;
+      font-size: 22px;
+      width: 55%;
+      position: absolute;
+      top: 58%;
+      left: 21.5%;
+      line-height: 1.5;
+    }
+  }
+  .scroll-icon{
+  transform: translateY(-55%);
+  text-align: center;
+  position: relative;
+
+    svg{
+      width: 2%;
+    }
+    .shell{
+      fill:none;
+      stroke:#FFFFFF;
+      stroke-width:3;
+    }
+    .wheel{
+      fill:#FFFFFF;
+      animation: myScroll 1.5s infinite;
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////////svg rules
+
 
 @keyframes myScroll {
   0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
@@ -231,7 +279,7 @@ header{
   .inactive{width: 25%; height: 100%;}
 	}
 ////////////////////////////////////////////////////////////modules-hidden
-.vision, .studio, .contact, .nav-pop-out {
+.landing, .studio, .contact, .nav-pop-out {
 	display: none;
 }
 ////////////////////////////////////////////////////////////
@@ -385,7 +433,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       display: none;
     }
     .nav-btn{
-      //margin: 0;
       padding: 0;
 
       img{

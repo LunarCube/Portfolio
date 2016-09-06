@@ -173,20 +173,65 @@ header .nav-btn img {
   top: 50%;
   transform: translateY(-50%);
 }
-
-.scroll-icon {
+.landing .scroll-icon {
   margin-top: 3.5%;
   position: relative;
 }
-.scroll-icon svg {
+.landing .scroll-icon svg {
   width: 2%;
 }
-.scroll-icon .shell {
+.landing .scroll-icon .shell {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 3;
 }
-.scroll-icon .wheel {
+.landing .scroll-icon .wheel {
+  fill: #FFFFFF;
+  animation: myScroll 1.5s infinite;
+}
+
+.vision {
+  padding-top: 4%;
+  padding-left: 6.5%;
+  font-family: "Merriweather", serif;
+}
+.vision .content {
+  position: relative;
+}
+.vision .content h1 {
+  float: right;
+  color: white;
+  font-size: 80px;
+  width: 65%;
+  font-weight: bold;
+  position: relative;
+  margin-top: 4%;
+  transform: translateX(-22%);
+}
+.vision .content p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  width: 55%;
+  position: absolute;
+  top: 58%;
+  left: 21.5%;
+  line-height: 1.5;
+}
+.vision .scroll-icon {
+  transform: translateY(-55%);
+  text-align: center;
+  position: relative;
+}
+.vision .scroll-icon svg {
+  width: 2%;
+}
+.vision .scroll-icon .shell {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 3;
+}
+.vision .scroll-icon .wheel {
   fill: #FFFFFF;
   animation: myScroll 1.5s infinite;
 }
@@ -239,7 +284,7 @@ header .nav-btn img {
   height: 100%;
 }
 
-.vision, .studio, .contact, .nav-pop-out {
+.landing, .studio, .contact, .nav-pop-out {
   display: none;
 }
 
