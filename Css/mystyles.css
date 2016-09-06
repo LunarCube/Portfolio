@@ -205,7 +205,7 @@ header .nav-btn img {
   width: 65%;
   font-weight: bold;
   position: relative;
-  margin-top: 4%;
+  margin-top: 3.5%;
   transform: translateX(-22%);
 }
 .vision .content p {
@@ -219,7 +219,7 @@ header .nav-btn img {
   line-height: 1.5;
 }
 .vision .scroll-icon {
-  transform: translateY(-55%);
+  transform: translateY(-50%);
   text-align: center;
   position: relative;
 }
