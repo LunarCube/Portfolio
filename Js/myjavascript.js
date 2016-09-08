@@ -39,7 +39,7 @@ $(document).ready(function(){
 	$('.vision-header').flowtype({
 		minimum   : 320,
 	 	maximum   : 1600,
-	 	minFont   : 50,
+	 	minFont   : 42,
 	 	maxFont   : 90,
 	 	fontRatio : 10.8
 	});

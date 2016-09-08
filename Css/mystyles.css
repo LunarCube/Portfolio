@@ -423,6 +423,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     top: 56%;
     left: 26%;
   }
+  .vision .scroll-icon {
+    transform: translateY(-50%);
+  }
 }
 @media screen and (max-width: 1000px) {
   .landing {
@@ -436,15 +439,16 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .vision {
-    padding-top: 6%;
+    padding-top: 6.5%;
   }
   .vision .content .vision-header {
-    top: 20.5%;
+    top: 21.5%;
     left: 25%;
+    width: 65%;
   }
   .vision .content .vision-body-text {
     top: 55%;
-    left: 26%;
+    left: 26.5%;
   }
 }
 @media screen and (max-width: 900px) {
@@ -486,6 +490,23 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing-cta {
     width: 20%;
   }
+
+  .vision {
+    padding-top: 7.5%;
+  }
+  .vision .content .vision-header {
+    top: 25%;
+    left: 25%;
+    width: 65%;
+  }
+  .vision .content .vision-body-text {
+    top: 56.5%;
+    left: 26.5%;
+    width: 50%;
+  }
+  .vision .content img {
+    margin-left: 9.5%;
+  }
 }
 @media screen and (max-width: 800px) {
   header .logo {
@@ -514,6 +535,44 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .landing .scroll-icon svg {
     width: 3%;
+  }
+
+  .vision {
+    padding-top: 10%;
+  }
+  .vision .content .vision-header {
+    top: 25.5%;
+    left: 23.5%;
+    width: 66.5%;
+  }
+  .vision .content .vision-body-text {
+    top: 57%;
+    left: 25%;
+    width: 50%;
+  }
+  .vision .content img {
+    margin-left: 10.5%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .vision {
+    padding-top: 10.5%;
+  }
+  .vision .content .vision-header {
+    top: 20%;
+    left: 23.5%;
+    width: 60%;
+  }
+  .vision .content .vision-body-text {
+    top: 56%;
+    left: 25%;
+    width: 50%;
+  }
+  .vision .content img {
+    margin-left: 19%;
+  }
+  .vision .scroll-icon {
+    transform: translateY(0%);
   }
 }
 @media screen and (max-width: 700px) {
@@ -552,10 +611,35 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing .scroll-icon {
     margin-top: 7%;
   }
+
+  .vision {
+    padding-top: 11.5%;
+  }
+  .vision .content .vision-header {
+    top: 20%;
+    left: 23.5%;
+    width: 66%;
+  }
+  .vision .content .vision-body-text {
+    top: 58%;
+    left: 25%;
+    width: 50%;
+  }
+  .vision .content img {
+    margin-left: 17.2%;
+    width: 62.5%;
+  }
+  .vision .scroll-icon {
+    transform: translateY(5%);
+  }
 }
 @media screen and (max-width: 650px) {
   .landing .content h1 {
     width: 75%;
+  }
+
+  .vision {
+    padding-top: 15%;
   }
 }
 @media screen and (max-width: 600px) {

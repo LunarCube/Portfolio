@@ -453,6 +453,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         left: 26%;
       }
     }
+     .scroll-icon{
+      transform: translateY(-50%);
+    }
   }
 }
 @media screen and (max-width: 1000px) {
@@ -467,16 +470,17 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
   .vision{
-    padding-top: 6%;
+    padding-top: 6.5%;
 
     .content{
       .vision-header{
-        top: 20.5%;
+        top: 21.5%;
         left: 25%;
+        width: 65%;
       }
       .vision-body-text{
         top: 55%;
-        left: 26%;
+        left: 26.5%;
       }
     }
   }
@@ -530,6 +534,26 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing-cta{
     width: 20%;
   }
+
+  .vision{
+    padding-top: 7.5%;
+
+    .content{
+      .vision-header{
+        top: 25%;
+        left: 25%;
+        width: 65%;
+      }
+      .vision-body-text{
+        top: 56.5%;
+        left: 26.5%;
+        width: 50%;
+      }
+      img{
+        margin-left: 9.5%;
+      }
+    }
+  }
 }
 @media screen and (max-width: 800px) {
   header{
@@ -563,6 +587,49 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
     .scroll-icon svg{
       width: 3%;
+    }
+  }
+  .vision{
+    padding-top: 10%;
+
+    .content{
+      .vision-header{
+        top: 25.5%;
+        left: 23.5%;
+        width: 66.5%;
+      }
+      .vision-body-text{
+        top: 57%;
+        left: 25%;
+        width: 50%;
+      }
+      img{
+        margin-left: 10.5%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .vision{
+    padding-top: 10.5%;
+
+    .content{
+      .vision-header{
+        top: 20%;
+        left: 23.5%;
+        width: 60%;
+      }
+      .vision-body-text{
+        top: 56%;
+        left: 25%;
+        width: 50%;
+      }
+      img{
+        margin-left: 19%;
+      }
+    }
+     .scroll-icon{
+      transform: translateY(0%);
     }
   }
 }
@@ -610,6 +677,29 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       margin-top: 7%;
     }
   }
+  .vision{
+    padding-top: 11.5%;
+
+    .content{
+      .vision-header{
+        top: 20%;
+        left: 23.5%;
+        width: 66%;
+      }
+      .vision-body-text{
+        top: 58%;
+        left: 25%;
+        width: 50%;
+      }
+      img{
+        margin-left: 17.2%;
+        width: 62.5%;
+      }
+    }
+    .scroll-icon{
+      transform: translateY(5%);
+    }
+  }
 }
 @media screen and (max-width: 650px) {
   .landing{
@@ -618,6 +708,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         width: 75%;
       }
     }
+  }
+  .vision{
+    padding-top: 15%;
   }
 }
 @media screen and (max-width: 600px) {
