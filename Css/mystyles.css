@@ -225,7 +225,7 @@ header .nav-btn img {
   margin-left: 6.5%;
 }
 .vision .scroll-icon {
-  transform: translateY(-70%);
+  transform: translateY(-68%);
   text-align: center;
   position: relative;
 }
@@ -436,7 +436,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .vision {
-    padding-top: 5.85%;
+    padding-top: 6%;
   }
   .vision .content .vision-header {
     top: 20.5%;
