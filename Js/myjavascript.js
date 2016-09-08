@@ -35,6 +35,24 @@ $(document).ready(function(){
 			$('.nav-btn').removeClass('one column').addClass('two columns');
 		}
 	});
-////////////////////////////////////////////////////////after script check
+////////////////////////////////////////////////////////responsive type
+	$('.vision-header').flowtype({
+		minimum   : 320,
+	 	maximum   : 1600,
+	 	minFont   : 50,
+	 	maxFont   : 90,
+	 	fontRatio : 10.8
+	});
+
+	$('.vision-body-text').flowtype({
+		minimum   : 320,
+	 	maximum   : 1600,
+	 	minFont   : 16,
+	 	maxFont   : 20,
+	 	fontRatio : 30
+	});
+
+
+///////////////////////////////////////////////////////responsive type end
 
 });
