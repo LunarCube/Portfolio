@@ -630,7 +630,12 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 62.5%;
   }
   .vision .scroll-icon {
-    transform: translateY(5%);
+    transform: translateY(15%);
+  }
+}
+@media screen and (max-width: 675px) {
+  .vision {
+    padding-top: 16.5%;
   }
 }
 @media screen and (max-width: 650px) {
@@ -639,7 +644,17 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .vision {
-    padding-top: 15%;
+    padding-top: 16.5%;
+  }
+  .vision .content .vision-body-text {
+    width: 60%;
+    top: 60%;
+  }
+  .vision .scroll-icon {
+    transform: translateY(30%);
+  }
+  .vision .scroll-icon svg {
+    width: 3.5%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -653,13 +668,24 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing .scroll-icon svg {
     width: 4%;
   }
-}
-@media screen and (max-width: 500px) {
-  .landing {
-    padding-top: 23.5%;
-  }
 
-  .scroll-icon svg {
+  .vision {
+    padding-top: 20%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 16%;
+    left: 21%;
+  }
+  .vision .content .vision-body-text {
+    width: 62%;
+    top: 62%;
+    left: 21%;
+  }
+  .vision .scroll-icon {
+    transform: translateY(40%);
+  }
+  .vision .scroll-icon svg {
     width: 4%;
   }
 }
@@ -669,6 +695,78 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .landing .landing-cta {
     width: 32.5%;
+  }
+
+  .vision {
+    padding-top: 22%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 16%;
+    left: 21.5%;
+  }
+  .vision .content .vision-body-text {
+    width: 62%;
+    top: 60%;
+    left: 21%;
+  }
+  .vision .content img {
+    width: 72%;
+    margin-left: 13%;
+  }
+  .vision .scroll-icon {
+    transform: translateY(25%);
+  }
+}
+@media screen and (max-width: 515px) {
+  .vision {
+    padding-top: 23%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 13%;
+    left: 21.5%;
+  }
+  .vision .content .vision-body-text {
+    width: 70%;
+    top: 65%;
+    left: 21%;
+  }
+  .vision .content img {
+    width: 75%;
+    margin-left: 11.5%;
+  }
+  .vision .scroll-icon {
+    transform: translateY(30%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .landing {
+    padding-top: 23.5%;
+  }
+  .landing .scroll-icon svg {
+    width: 4%;
+  }
+
+  .vision {
+    padding-top: 23%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 12%;
+    left: 21%;
+  }
+  .vision .content .vision-body-text {
+    width: 70%;
+    top: 66%;
+    left: 21%;
+  }
+  .vision .content img {
+    width: 75%;
+    margin-left: 11.5%;
+  }
+  .vision .scroll-icon {
+    transform: translateY(75%);
   }
 }
 @media screen and (max-width: 450px) {
