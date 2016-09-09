@@ -299,7 +299,7 @@ header .nav-btn img {
   height: 100%;
 }
 
-.vision, .studio, .contact, .nav-pop-out {
+.landing, .studio, .contact, .nav-pop-out {
   display: none;
 }
 
