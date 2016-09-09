@@ -233,8 +233,8 @@ header{
       line-height: 1.5;
     }
     img{
-      //width: 28%;
       margin-left: 6.5%;
+      min-width: 300px;
     }
   }
   .scroll-icon{
@@ -244,6 +244,7 @@ header{
 
     svg{
       width: 2%;
+      min-width: 23px;
     }
     .shell{
       fill:none;
@@ -693,7 +694,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
       img{
         margin-left: 17.2%;
-        width: 62.5%;
       }
     }
     .scroll-icon{
@@ -798,7 +798,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         left: 21%;
       }
       img{
-        width: 72%;
         margin-left: 13%;
       }
     }
@@ -827,7 +826,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
 
       img{
-        width: 75%;
         margin-left: 11.5%;
       }
     }
@@ -863,7 +861,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
 
       img{
-        width: 75%;
         margin-left: 11.5%;
       }
     }

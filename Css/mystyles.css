@@ -223,6 +223,7 @@ header .nav-btn img {
 }
 .vision .content img {
   margin-left: 6.5%;
+  min-width: 300px;
 }
 .vision .scroll-icon {
   transform: translateY(-68%);
@@ -231,6 +232,7 @@ header .nav-btn img {
 }
 .vision .scroll-icon svg {
   width: 2%;
+  min-width: 23px;
 }
 .vision .scroll-icon .shell {
   fill: none;
@@ -627,7 +629,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .vision .content img {
     margin-left: 17.2%;
-    width: 62.5%;
   }
   .vision .scroll-icon {
     transform: translateY(15%);
@@ -711,7 +712,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     left: 21%;
   }
   .vision .content img {
-    width: 72%;
     margin-left: 13%;
   }
   .vision .scroll-icon {
@@ -733,7 +733,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     left: 21%;
   }
   .vision .content img {
-    width: 75%;
     margin-left: 11.5%;
   }
   .vision .scroll-icon {
@@ -762,7 +761,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     left: 21%;
   }
   .vision .content img {
-    width: 75%;
     margin-left: 11.5%;
   }
   .vision .scroll-icon {
