@@ -154,6 +154,11 @@ header .nav-btn img {
 .landing .content h1, .landing .content img {
   margin-bottom: 3%;
 }
+.landing .content img {
+  width: 6.6%;
+  max-width: 100px;
+  min-width: 80px;
+}
 .landing .landing-cta {
   background: #ff7c53;
   width: 15%;
@@ -180,6 +185,7 @@ header .nav-btn img {
 }
 .landing .scroll-icon svg {
   width: 2%;
+  min-width: 23px;
 }
 .landing .scroll-icon .shell {
   fill: none;
@@ -303,19 +309,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
               path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
 */
 @media screen and (max-width: 1500px) {
-  .vision .content .vision-body-text {
-    top: 60%;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .landing {
-    padding-top: 7%;
+  .landing .landing-cta {
+    min-width: 228px;
   }
 
-  .vision .content .vision-header {
-    top: 15%;
-    left: 26%;
-  }
   .vision .content .vision-body-text {
     top: 60%;
   }
@@ -329,6 +326,19 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     top: 60.5%;
   }
 }
+@media screen and (max-width: 1400px) {
+  .landing {
+    padding-top: 6%;
+  }
+
+  .vision .content .vision-header {
+    top: 15%;
+    left: 26%;
+  }
+  .vision .content .vision-body-text {
+    top: 60%;
+  }
+}
 @media screen and (max-width: 1350px) {
   .vision .content .vision-header {
     top: 15%;
@@ -339,6 +349,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 1300px) {
+  .landing {
+    padding-top: 7%;
+  }
+
   .vision .content .vision-header {
     top: 16%;
     left: 25.5%;
@@ -349,6 +363,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 1250px) {
+  .landing {
+    padding-top: 8%;
+  }
+
   .vision {
     padding-top: 4%;
   }
@@ -363,10 +381,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1200px) {
   .landing {
-    padding-top: 8%;
-  }
-  .landing .landing-cta {
-    width: 21.5%;
+    padding-top: 9%;
   }
 
   .vision {
@@ -382,6 +397,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 1150px) {
+  .landing {
+    padding-top: 10%;
+  }
+
   .vision {
     padding-top: 5%;
   }
@@ -396,10 +415,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1100px) {
   .landing {
-    padding-top: 9.5%;
-  }
-  .landing .scroll-icon svg, .landing .landing-cta {
-    margin-top: 1%;
+    padding-top: 11%;
   }
 
   .vision {
@@ -415,6 +431,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 1050px) {
+  .landing {
+    padding-top: 12%;
+  }
+
   .vision {
     padding-top: 5.85%;
   }
@@ -432,13 +452,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1000px) {
   .landing {
-    padding-top: 10.5%;
-  }
-  .landing .landing-cta {
-    width: 25%;
-  }
-  .landing .scroll-icon svg {
-    width: 2.5%;
+    padding-top: 13%;
   }
 
   .vision {
@@ -473,27 +487,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 100%;
   }
 
-  .landing {
-    padding-top: 12.5%;
-  }
-  .landing .content h1 {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .landing .content h1, .landing .content img {
-    margin-bottom: 4%;
-  }
-  .landing h1 {
-    line-height: 1.4;
-  }
-  .landing .scroll-icon {
-    margin-top: 4%;
-  }
-
-  .landing-cta {
-    width: 20%;
-  }
-
   .vision {
     padding-top: 7.5%;
   }
@@ -509,6 +502,11 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .vision .content img {
     margin-left: 9.5%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .landing {
+    padding-top: 14%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -533,11 +531,14 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 100%;
   }
 
-  .landing .landing-cta {
-    width: 25%;
+  .landing {
+    padding-top: 15%;
+  }
+  .landing .content h1, .landing .content img {
+    margin-bottom: 4%;
   }
   .landing .scroll-icon svg {
-    width: 3%;
+    margin-top: 3.5%;
   }
 
   .vision {
@@ -606,14 +607,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 50%;
   }
 
-  .landing .content h1, .landing .content img {
-    margin-bottom: 5%;
-  }
-  .landing .landing-cta {
-    width: 30%;
-  }
-  .landing .scroll-icon {
-    margin-top: 7%;
+  .landing {
+    padding-top: 17%;
   }
 
   .vision {
@@ -643,8 +638,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 650px) {
-  .landing .content h1 {
-    width: 75%;
+  .landing {
+    padding-top: 18%;
   }
 
   .vision {
@@ -667,13 +662,13 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .landing {
-    padding-top: 15%;
+    padding-top: 19%;
+  }
+  .landing .content h1, .landing .content img {
+    margin-bottom: 5%;
   }
   .landing .scroll-icon svg {
-    width: 4%;
-  }
-  .landing h1 {
-    font-size: 48px;
+    margin-top: 4%;
   }
 
   .vision {
@@ -698,10 +693,13 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 550px) {
   .landing {
-    padding-top: 23%;
+    padding-top: 22%;
   }
-  .landing .landing-cta {
-    width: 32.5%;
+  .landing .content h1, .landing .content img {
+    margin-bottom: 6%;
+  }
+  .landing .scroll-icon svg {
+    margin-top: 5%;
   }
 
   .vision {
@@ -748,10 +746,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 500px) {
   .landing {
-    padding-top: 23.5%;
-  }
-  .landing .scroll-icon svg {
-    width: 4%;
+    padding-top: 25%;
   }
 
   .vision {
@@ -797,19 +792,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 450px) {
-  .landing {
-    padding-top: 20%;
-  }
-  .landing .landing-cta {
-    width: 34.5%;
-  }
-  .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
-    margin-top: 2.5%;
-  }
-  .landing .scroll-icon svg {
-    width: 5%;
-  }
-
   .vision {
     padding-top: 29%;
   }
@@ -836,16 +818,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 409px) {
   .landing {
-    padding-top: 26%;
-  }
-  .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
-    margin-top: 3%;
-  }
-  .landing .landing-cta {
-    width: 40%;
-  }
-  .landing .scroll-icon svg {
-    width: 5%;
+    padding-top: 30%;
   }
 
   .vision {
@@ -899,19 +872,13 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 350px) {
   .landing {
-    padding-top: 35%;
+    padding-top: 33.5%;
   }
-  .landing .landing-cta {
-    width: 45%;
+  .landing .content h1, .landing .content img {
+    margin-bottom: 8%;
   }
   .landing .scroll-icon svg {
-    width: 6%;
-  }
-  .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
-    margin-top: 4%;
-  }
-  .landing .content img {
-    width: 30%;
+    margin-top: 7%;
   }
 
   .vision {
