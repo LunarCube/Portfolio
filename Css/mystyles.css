@@ -872,7 +872,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 350px) {
   .landing {
-    padding-top: 33.5%;
+    padding-top: 35%;
   }
   .landing .content h1, .landing .content img {
     margin-bottom: 8%;
