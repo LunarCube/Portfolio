@@ -223,7 +223,8 @@ header .nav-btn img {
 }
 .vision .content img {
   margin-left: 6.5%;
-  min-width: 300px;
+  min-width: 395px;
+  width: 26%;
 }
 .vision .scroll-icon {
   transform: translateY(-68%);
@@ -558,7 +559,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 750px) {
   .vision {
-    padding-top: 10.5%;
+    padding-top: 9.5%;
   }
   .vision .content .vision-header {
     top: 20%;
@@ -572,9 +573,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .vision .content img {
     margin-left: 19%;
+    min-width: 400px;
   }
   .vision .scroll-icon {
-    transform: translateY(0%);
+    transform: translateY(5%);
   }
 }
 @media screen and (max-width: 700px) {
@@ -615,7 +617,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .vision {
-    padding-top: 11.5%;
+    padding-top: 12.5%;
   }
   .vision .content .vision-header {
     top: 20%;
@@ -629,6 +631,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .vision .content img {
     margin-left: 17.2%;
+    min-width: 375px;
   }
   .vision .scroll-icon {
     transform: translateY(15%);
@@ -636,7 +639,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 675px) {
   .vision {
-    padding-top: 16.5%;
+    padding-top: 13%;
   }
 }
 @media screen and (max-width: 650px) {
@@ -645,7 +648,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .vision {
-    padding-top: 16.5%;
+    padding-top: 13.5%;
   }
   .vision .content .vision-body-text {
     width: 60%;
@@ -671,7 +674,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .vision {
-    padding-top: 20%;
+    padding-top: 14%;
   }
   .vision .content .vision-header {
     width: 70%;
@@ -692,7 +695,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 550px) {
   .landing {
-    padding-top: 23.5%;
+    padding-top: 23%;
   }
   .landing .landing-cta {
     width: 32.5%;
@@ -713,6 +716,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .vision .content img {
     margin-left: 13%;
+    min-width: 350px;
   }
   .vision .scroll-icon {
     transform: translateY(25%);
@@ -720,7 +724,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 515px) {
   .vision {
-    padding-top: 23%;
+    padding-top: 22.5%;
   }
   .vision .content .vision-header {
     width: 70%;
@@ -767,6 +771,28 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     transform: translateY(75%);
   }
 }
+@media screen and (max-width: 475px) {
+  .vision {
+    padding-top: 25%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 12%;
+    left: 21%;
+  }
+  .vision .content .vision-body-text {
+    width: 70%;
+    top: 66%;
+    left: 21%;
+  }
+  .vision .content img {
+    margin-left: 11.5%;
+    min-width: 340px;
+  }
+  .vision .scroll-icon {
+    transform: translateY(75%);
+  }
+}
 @media screen and (max-width: 450px) {
   .landing {
     padding-top: 25%;
@@ -779,6 +805,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .landing .scroll-icon svg {
     width: 5%;
+  }
+
+  .vision {
+    padding-top: 29%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 10%;
+    left: 15%;
+  }
+  .vision .content .vision-body-text {
+    width: 75%;
+    top: 68%;
+    left: 15%;
+  }
+  .vision .content img {
+    margin-left: 10%;
+    min-width: 330px;
+  }
+  .vision .scroll-icon {
+    transform: translateY(100%);
+  }
+  .vision .scroll-icon svg {
+    min-width: 20px;
   }
 }
 @media screen and (max-width: 409px) {
@@ -794,10 +844,59 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing .scroll-icon svg {
     width: 5%;
   }
+
+  .vision {
+    padding-top: 32%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 10%;
+    left: 10%;
+  }
+  .vision .content .vision-body-text {
+    width: 80%;
+    top: 70%;
+    left: 10%;
+  }
+  .vision .content img {
+    margin-left: 6%;
+    min-width: 315px;
+  }
+  .vision .scroll-icon {
+    transform: translateY(150%);
+  }
+  .vision .scroll-icon svg {
+    min-width: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .vision {
+    padding-top: 34%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 10%;
+    left: 10%;
+  }
+  .vision .content .vision-body-text {
+    width: 80%;
+    top: 72%;
+    left: 10%;
+  }
+  .vision .content img {
+    margin-left: 5%;
+    min-width: 300px;
+  }
+  .vision .scroll-icon {
+    transform: translateY(200%);
+  }
+  .vision .scroll-icon svg {
+    min-width: 20px;
+  }
 }
 @media screen and (max-width: 350px) {
   .landing {
-    padding-top: 32%;
+    padding-top: 35%;
   }
   .landing .landing-cta {
     width: 45%;
@@ -807,5 +906,29 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
     margin-top: 4%;
+  }
+
+  .vision {
+    padding-top: 40%;
+  }
+  .vision .content .vision-header {
+    width: 70%;
+    top: 10%;
+    left: 8%;
+  }
+  .vision .content .vision-body-text {
+    width: 90%;
+    top: 80%;
+    left: 8%;
+  }
+  .vision .content img {
+    margin-left: 4%;
+    min-width: 265px;
+  }
+  .vision .scroll-icon {
+    transform: translateY(310%);
+  }
+  .vision .scroll-icon svg {
+    min-width: 20px;
   }
 }

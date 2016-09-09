@@ -234,7 +234,8 @@ header{
     }
     img{
       margin-left: 6.5%;
-      min-width: 300px;
+      min-width: 395px;
+      width: 26%;
     }
   }
   .scroll-icon{
@@ -612,7 +613,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 750px) {
   .vision{
-    padding-top: 10.5%;
+    padding-top: 9.5%;
 
     .content{
       .vision-header{
@@ -627,10 +628,11 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
       img{
         margin-left: 19%;
+        min-width: 400px;
       }
     }
      .scroll-icon{
-      transform: translateY(0%);
+      transform: translateY(5%);
     }
   }
 }
@@ -679,7 +681,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
   .vision{
-    padding-top: 11.5%;
+    padding-top: 12.5%;
 
     .content{
       .vision-header{
@@ -694,6 +696,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
       img{
         margin-left: 17.2%;
+        min-width: 375px;
       }
     }
     .scroll-icon{
@@ -703,7 +706,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 675px) {
   .vision{
-    padding-top: 16.5%;
+    padding-top: 13%;
   }
 }
 
@@ -716,7 +719,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
   .vision{
-    padding-top: 16.5%;
+    padding-top: 13.5%;
 
     .content{
       .vision-body-text{
@@ -749,7 +752,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
   .vision{
-    padding-top: 20%;
+    padding-top: 14%;
 
     .content{
       .vision-header{
@@ -776,7 +779,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 550px) {
   .landing{
-    padding-top: 23.5%;
+    padding-top: 23%;
 
     .landing-cta{
       width: 32.5%;
@@ -799,6 +802,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
       img{
         margin-left: 13%;
+        min-width: 350px;
       }
     }
 
@@ -811,7 +815,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 @media screen and (max-width: 515px) {
 
   .vision{
-    padding-top: 23%;
+    padding-top: 22.5%;
 
     .content{
       .vision-header{
@@ -870,7 +874,33 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
 }
+@media screen and(max-width: 475px){
+  .vision{
+    padding-top: 25%;
 
+    .content{
+      .vision-header{
+        width: 70%;
+        top: 12%;
+        left: 21%;
+      }
+      .vision-body-text{
+        width: 70%;
+        top: 66%;
+        left: 21%;
+      }
+
+      img{
+        margin-left: 11.5%;
+        min-width: 340px;
+      }
+    }
+
+    .scroll-icon{
+    transform: translateY(75%);
+    }
+  }
+}
 @media screen and (max-width: 450px) {
   .landing{
     padding-top: 25%;
@@ -883,6 +913,35 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
     .scroll-icon svg{
       width: 5%;
+    }
+  }
+  .vision{
+    padding-top: 29%;
+
+    .content{
+      .vision-header{
+        width: 70%;
+        top: 10%;
+        left: 15%;
+      }
+      .vision-body-text{
+        width: 75%;
+        top: 68%;
+        left: 15%;
+      }
+
+      img{
+        margin-left: 10%;
+        min-width: 330px;
+      }
+    }
+
+    .scroll-icon{
+    transform: translateY(100%);
+
+      svg{
+        min-width: 20px;
+      }
     }
   }
 }
@@ -900,10 +959,70 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       width: 5%;
     }
   }
+  .vision{
+    padding-top: 32%;
+
+    .content{
+      .vision-header{
+        width: 70%;
+        top: 10%;
+        left: 10%;
+      }
+      .vision-body-text{
+        width: 80%;
+        top: 70%;
+        left: 10%;
+      }
+
+      img{
+        margin-left: 6%;
+        min-width: 315px;
+      }
+    }
+
+    .scroll-icon{
+    transform: translateY(150%);
+
+      svg{
+        min-width: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .vision{
+    padding-top: 34%;
+
+    .content{
+      .vision-header{
+        width: 70%;
+        top: 10%;
+        left: 10%;
+      }
+      .vision-body-text{
+        width: 80%;
+        top: 72%;
+        left: 10%;
+      }
+
+      img{
+        margin-left: 5%;
+        min-width: 300px;
+      }
+    }
+
+    .scroll-icon{
+    transform: translateY(200%);
+
+      svg{
+        min-width: 20px;
+      }
+    }
+  }
 }
 @media screen and (max-width: 350px) {
   .landing{
-    padding-top: 32%;
+    padding-top: 35%;
 
     .landing-cta{
       width: 45%;
@@ -913,6 +1032,35 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
     .content img, .landing-cta, .scroll-icon svg{
       margin-top: 4%;
+    }
+  }
+  .vision{
+    padding-top: 40%;
+
+    .content{
+      .vision-header{
+        width: 70%;
+        top: 10%;
+        left: 8%;
+      }
+      .vision-body-text{
+        width: 90%;
+        top: 80%;
+        left: 8%;
+      }
+
+      img{
+        margin-left: 4%;
+        min-width: 265px;
+      }
+    }
+
+    .scroll-icon{
+    transform: translateY(310%);
+
+      svg{
+        min-width: 20px;
+      }
     }
   }
 }
