@@ -293,7 +293,7 @@ header .nav-btn img {
   height: 100%;
 }
 
-.landing, .studio, .contact, .nav-pop-out {
+.vision, .studio, .contact, .nav-pop-out {
   display: none;
 }
 
@@ -667,10 +667,13 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .landing {
-    padding-top: 20%;
+    padding-top: 15%;
   }
   .landing .scroll-icon svg {
     width: 4%;
+  }
+  .landing h1 {
+    font-size: 48px;
   }
 
   .vision {
@@ -795,13 +798,13 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 450px) {
   .landing {
-    padding-top: 25%;
+    padding-top: 20%;
   }
   .landing .landing-cta {
     width: 34.5%;
   }
   .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
-    margin-top: 3.5%;
+    margin-top: 2.5%;
   }
   .landing .scroll-icon svg {
     width: 5%;
@@ -906,6 +909,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .landing .content img, .landing .landing-cta, .landing .scroll-icon svg {
     margin-top: 4%;
+  }
+  .landing .content img {
+    width: 30%;
   }
 
   .vision {
