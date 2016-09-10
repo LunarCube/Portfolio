@@ -251,6 +251,95 @@ header .nav-btn img {
   animation: myScroll 1.5s infinite;
 }
 
+.contact {
+  width: 100%;
+  height: 100%;
+}
+.contact .content {
+  width: 100%;
+  height: 100%;
+}
+.contact .content .aside {
+  width: 40%;
+  height: 100%;
+  min-height: 100%;
+  padding-top: 4%;
+  background: #3d81a9;
+  display: inline-block;
+}
+.contact .content .aside img {
+  width: 85%;
+  max-height: 90%;
+  text-align: center;
+}
+.contact .content .main {
+  display: inline-block;
+  font-family: "Merriweather", serif;
+  color: white;
+  text-align: center;
+  width: 59.5%;
+  height: 100%;
+  vertical-align: top;
+}
+.contact .content .main .contact-main-wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+.contact .content .main .contact-vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.contact .content .main h1 {
+  font-size: 5.625em;
+  font-weight: 800;
+  font-weight: bold;
+}
+.contact .content .main .contact-cta {
+  width: 100%;
+  height: 100%;
+  max-width: 392px;
+  min-width: 228px;
+  min-height: 96px;
+  font-family: "Open Sans", sans-serif;
+  margin: 6% auto;
+}
+.contact .content .main .contact-cta a {
+  background: #ff7c53;
+  color: #141414;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  max-height: 96px;
+  min-height: 96px;
+}
+.contact .content .main .contact-cta p {
+  font-weight: 800;
+  font-weight: bold;
+  font-size: 1.25em;
+  position: relative;
+  top: -100%;
+  transform: translateY(100%);
+}
+.contact .content .main .social-wrapper-contact ul {
+  list-style-type: none;
+}
+.contact .content .main .social-wrapper-contact ul li {
+  display: inline-block;
+  margin: 0 2.5%;
+}
+.contact .content .main .social-wrapper-contact ul :first-child {
+  margin-left: 0;
+}
+.contact .content .main .social-wrapper-contact ul :last-child {
+  margin-right: 0;
+}
+.contact .content .main .social-wrapper-contact a {
+  display: block;
+}
+
 @keyframes myScroll {
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
@@ -299,7 +388,7 @@ header .nav-btn img {
   height: 100%;
 }
 
-.landing, .studio, .contact, .nav-pop-out {
+.hidden {
   display: none;
 }
 
