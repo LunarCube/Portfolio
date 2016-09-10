@@ -280,7 +280,7 @@ header .nav-btn img {
   transform: translateY(-50%);
 }
 .contact .content .main {
-  display: inline-block;
+  float: right;
   font-family: "Merriweather", serif;
   color: white;
   text-align: center;
@@ -298,16 +298,20 @@ header .nav-btn img {
   top: 50%;
   transform: translateY(-50%);
 }
-.contact .content .main h1 {
+.contact .content .main .contact-header {
   font-size: 5.625em;
+}
+.contact .content .main .contact-cta-text {
+  font-size: 1.25em;
+}
+.contact .content .main h1 {
   font-weight: 800;
   font-weight: bold;
 }
 .contact .content .main .contact-cta {
-  width: 100%;
+  width: 43.34%;
   height: 100%;
-  max-width: 392px;
-  min-width: 289px;
+  min-width: 258px;
   min-height: 96px;
   font-family: "Open Sans", sans-serif;
   margin: 6% auto;
@@ -325,10 +329,10 @@ header .nav-btn img {
 .contact .content .main .contact-cta p {
   font-weight: 800;
   font-weight: bold;
-  font-size: 1.25em;
   position: relative;
   top: -100%;
   transform: translateY(100%);
+  width: 100%;
 }
 .contact .content .main .social-wrapper-contact ul {
   list-style-type: none;

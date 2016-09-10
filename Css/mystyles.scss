@@ -296,7 +296,7 @@ header{
     }
 
     .main{
-      display: inline-block;
+      float: right;
       font-family: $font-p;
       color: white;
       text-align: center;
@@ -315,17 +315,22 @@ header{
         transform: translateY(-50%);
       }
 
-      h1{
+      .contact-header{
         font-size: 5.625em;
+      }
+      .contact-cta-text{
+        font-size: 1.25em;
+      }
+
+      h1{
         font-weight: 800;
         font-weight: bold;
       }
 
       .contact-cta{
-        width: 100%;
+        width: 43.34%;
         height: 100%;
-        max-width: 392px;
-        min-width: 289px;
+        min-width: 258px;
         min-height: 96px;
         font-family: $font-s;
         margin: 6% auto;
@@ -343,10 +348,10 @@ header{
         p{
           font-weight: 800;
           font-weight: bold;
-          font-size: 1.25em;
           position: relative;
           top: -100%;
           transform: translateY(100%);
+          width: 100%;
         }
       }
 
