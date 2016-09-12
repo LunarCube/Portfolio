@@ -13,6 +13,9 @@ $(document).ready(function(){
 		if (viewportWidth <= 600){
 			$('.logo').removeClass('six columns').addClass('ten columns');
 		};
+		if (viewportWidth <= 500){
+			$('.contact-icon').attr('src', 'assets/contact-icon-mobile');
+		};
 	});
 
 ///////////////////////////////////////////////////////on resize
@@ -33,6 +36,16 @@ $(document).ready(function(){
 		}else if(viewportWidth < 600){
 			$('.logo').removeClass('six columns').addClass('ten columns');
 			$('.nav-btn').removeClass('one column').addClass('two columns');
+		}
+	});
+
+	$(window).resize(function(){
+
+		var viewportWidth = $(window).width();
+		if (viewportWidth <= 500){
+			//$('.contact-icon').attr('src', 'assets/contact-icon-mobile.svg');
+		}else if(viewportWidth > 500){
+			$('.contact-icon').attr('src', 'assets/contact-icon.svg');
 		}
 	});
 ////////////////////////////////////////////////////////responsive type
