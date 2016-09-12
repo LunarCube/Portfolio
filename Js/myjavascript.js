@@ -60,14 +60,6 @@ $(document).ready(function(){
 	 	fontRatio : 10.8
 	});
 
-	$('.contact-cta-text').flowtype({
-		minimum   : 320,
-	 	maximum   : 1600,
-	 	minFont   : 14,
-	 	maxFont   : 20,
-	 	fontRatio : 20
-	});
-
 ///////////////////////////////////////////////////////responsive type end
 
 });
