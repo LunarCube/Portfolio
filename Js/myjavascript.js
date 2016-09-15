@@ -14,7 +14,7 @@ $(document).ready(function(){
 			$('.logo').removeClass('six columns').addClass('ten columns');
 		};
 		if (viewportWidth <= 500){
-			$('.contact-icon').attr('src', 'assets/contact-icon-mobile');
+			$('.contact-icon').attr('src', 'assets/contact-icon-mobile.svg');
 		};
 	});
 

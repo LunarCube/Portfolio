@@ -5,6 +5,8 @@ head
 	meta(name="viewport" content="width=device-width, initial-scale=1")
 	link(rel="stylesheet", href="Css/mystyles.css" type="text/css")
 	link(rel="stylesheet", href="Css/skeleton.css" type="text/css")
+	script(src="https://use.fontawesome.com/fc9ea1b824.js")
+
 	link(href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet")
 
 
@@ -55,9 +57,23 @@ body
 							path.shell(d="M-223,228.5h1c6.4,0,11.5,5.1,11.5,11.5v22c0,6.4-5.1,11.5-11.5,11.5h-1c-6.4,0-11.5-5.1-11.5-11.5v-22 C-234.5,233.6-229.4,228.5-223,228.5z")
 							path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
 
-				.studio.hidden
+				.studio
+					.content
+						img(src="assets/studio-main-logo.svg", alt="studio icon")
+						h1.studio-header-main Design &amp; Devolopment
+						p.studio-body-text-main LunarCube studios is a front-end design and development studio based in the United States. We specialize in creating  uniquely dynamic websites that are both responsively expressive and engaging. Pulling the user into an expereience as well emmersing them in your brand.
 
-				.contact
+					.studio-side-nav
+						ul
+							li
+								a(href="#") Studio
+							li
+								a(href="#") Skills
+							li
+								a(href="#") Process
+
+
+				.contact.hidden
 					.content
 						.aside
 							.aside-img-wrapper
