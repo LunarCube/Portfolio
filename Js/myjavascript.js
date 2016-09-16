@@ -65,6 +65,22 @@ $(document).ready(function(){
 	 	fontRatio : 30
 	});
 
+	$('.studio-header-main').flowtype({
+		minimum   : 320,
+	 	maximum   : 1600,
+	 	minFont   : 42,
+	 	maxFont   : 90,
+	 	fontRatio : 10.8
+	});
+
+	$('.studio-body-text-main').flowtype({
+		minimum   : 320,
+	 	maximum   : 1600,
+	 	minFont   : 16,
+	 	maxFont   : 20,
+	 	fontRatio : 30
+	});
+
 	$('.contact-header').flowtype({
 		minimum   : 320,
 	 	maximum   : 1600,
