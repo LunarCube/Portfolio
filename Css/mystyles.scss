@@ -1063,6 +1063,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     .content{
       .main{
         width: 0;
+
         .studio-main-wrapper{
           .studio-header-main{
             left: 20%;
@@ -1356,8 +1357,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
           }
           .studio-body-text-main{
             left: 17%;
-            top: 59%;
-            width: 48%;
+            top: 60%;
+            width: 55%;
           }
         }
       }
@@ -1385,8 +1386,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       color: #ffb253;
     }
   }
-  }
 
+  }
 }
 @media screen and (max-width: 600px) {
   header{
@@ -1405,6 +1406,38 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
     .scroll-icon svg{
       margin-top: 4%;
+    }
+  }
+
+  .studio{
+    .vertical-line-top, .vertical-line-bottom{
+      display: none;
+    }
+
+    .content{
+      .main{
+        .studio-main-wrapper{
+          .studio-header-main{
+            left: 8%;
+            top: 31.5%;
+            width:70%;
+            font-size: 4em;
+          }
+          .studio-body-text-main{
+            left: 10%;
+            top: 60%;
+            width: 80%;
+            font-size: .75em;
+          }
+        }
+      }
+      .aside{
+        width: 100%;
+
+        img{
+          min-width: 250px;
+        }
+      }
     }
   }
 

@@ -1094,8 +1094,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .studio .content .main .studio-main-wrapper .studio-body-text-main {
     left: 17%;
-    top: 59%;
-    width: 48%;
+    top: 60%;
+    width: 55%;
   }
   .studio .studio-side-nav {
     font-family: "Merriweather", serif;
@@ -1133,6 +1133,28 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .landing .scroll-icon svg {
     margin-top: 4%;
+  }
+
+  .studio .vertical-line-top, .studio .vertical-line-bottom {
+    display: none;
+  }
+  .studio .content .main .studio-main-wrapper .studio-header-main {
+    left: 8%;
+    top: 31.5%;
+    width: 70%;
+    font-size: 4em;
+  }
+  .studio .content .main .studio-main-wrapper .studio-body-text-main {
+    left: 10%;
+    top: 60%;
+    width: 80%;
+    font-size: .75em;
+  }
+  .studio .content .aside {
+    width: 100%;
+  }
+  .studio .content .aside img {
+    min-width: 250px;
   }
 
   .vision {

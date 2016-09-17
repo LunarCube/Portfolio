@@ -73,6 +73,70 @@ $(document).ready(function(){
 	 	fontRatio : 10.8
 	});
 
+	$(window).load(function(){
+
+		var viewportWidth = $(window).width();
+
+		if(viewportWidth <= 500){
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 48,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
+			$('.studio-body-text-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+		}
+	});
+
+	$(window).resize(function(){
+
+		var viewportWidth = $(window).width();
+
+		if(viewportWidth <= 500){
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 48,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
+			$('.studio-body-text-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+		}else if(viewportWidth > 500){
+
+			$('.vision-body-text').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 59,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+		};
+	});
+
+
 	$('.studio-body-text-main').flowtype({
 		minimum   : 320,
 	 	maximum   : 1600,
