@@ -68,7 +68,7 @@ $(document).ready(function(){
 	$('.studio-header-main').flowtype({
 		minimum   : 320,
 	 	maximum   : 1600,
-	 	minFont   : 42,
+	 	minFont   : 59,
 	 	maxFont   : 90,
 	 	fontRatio : 10.8
 	});
