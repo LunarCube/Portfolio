@@ -15,6 +15,7 @@ $(document).ready(function(){
 		};
 		if (viewportWidth <= 500){
 			$('.contact-icon').attr('src', 'assets/contact-icon-mobile.svg');
+			$('.studio-icon').attr('src', 'assets/studio-mobile-logo.svg')
 		};
 	});
 
@@ -44,8 +45,11 @@ $(document).ready(function(){
 		var viewportWidth = $(window).width();
 		if (viewportWidth <= 500){
 			//$('.contact-icon').attr('src', 'assets/contact-icon-mobile.svg');
+			$('.studio-icon').attr('src', 'assets/studio-mobile-logo.svg')
 		}else if(viewportWidth > 500){
 			$('.contact-icon').attr('src', 'assets/contact-icon.svg');
+			$('.studio-icon').attr('src', 'assets/studio-main-logo.svg')
+
 		}
 	});
 ////////////////////////////////////////////////////////responsive type
@@ -99,7 +103,6 @@ $(document).ready(function(){
 	$(window).resize(function(){
 
 		var viewportWidth = $(window).width();
-
 		if(viewportWidth <= 500){
 			$('.studio-header-main').flowtype({
 				minimum   : 320,
@@ -134,6 +137,7 @@ $(document).ready(function(){
 			 	fontRatio : 10.8
 			});
 		};
+
 	});
 
 
