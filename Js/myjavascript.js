@@ -109,7 +109,7 @@ $(document).ready(function(){
 
 		var viewportWidth = $(window).width();
 
-		if(viewportWidth <= 500){
+		if(viewportWidth <= 500 && viewportWidth > 400){
 			$('.studio-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
@@ -125,13 +125,21 @@ $(document).ready(function(){
 			 	maxFont   : 20,
 			 	fontRatio : 30
 			});
+		}else if(viewportWidth <= 400){
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 40,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
 		};
 	});
 
 	$(window).resize(function(){
 
 		var viewportWidth = $(window).width();
-		if(viewportWidth <= 500){
+		if(viewportWidth <= 500 && viewportWidth > 400){
 			$('.studio-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
@@ -149,6 +157,14 @@ $(document).ready(function(){
 			});
 		}else if(viewportWidth > 500){
 
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 59,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
 			$('.studio-body-text').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
@@ -156,11 +172,11 @@ $(document).ready(function(){
 			 	maxFont   : 20,
 			 	fontRatio : 30
 			});
-
+		}else if(viewportWidth <= 400){
 			$('.studio-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
-			 	minFont   : 59,
+			 	minFont   : 40,
 			 	maxFont   : 90,
 			 	fontRatio : 10.8
 			});

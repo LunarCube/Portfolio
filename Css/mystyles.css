@@ -1303,7 +1303,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 80%;
   }
   .studio .content .main .studio-main-wrapper .studio-body-text-main {
-    left: 15%;
+    left: 12%;
     top: 60%;
     width: 75%;
   }
@@ -1390,9 +1390,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 80%;
   }
   .studio .content .main .studio-main-wrapper .studio-body-text-main {
-    left: 12%;
+    left: 11%;
     top: 60%;
-    width: 75%;
+    width: 80%;
   }
 
   .vision {
@@ -1431,14 +1431,14 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     max-height: 80%;
   }
   .studio .content .main .studio-main-wrapper .studio-header-main {
-    left: 3%;
-    top: 37%;
+    left: 8%;
+    top: 38%;
     width: 80%;
   }
   .studio .content .main .studio-main-wrapper .studio-body-text-main {
-    left: 3%;
-    top: 60%;
-    width: 95%;
+    left: 9%;
+    top: 58%;
+    width: 85%;
   }
 
   .vision {
@@ -1525,6 +1525,23 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     min-width: 20px;
   }
 
+  .studio .content .main {
+    float: none;
+    width: 100%;
+    height: 80%;
+    max-height: 80%;
+  }
+  .studio .content .main .studio-main-wrapper .studio-header-main {
+    left: 5%;
+    top: 38%;
+    width: 80%;
+  }
+  .studio .content .main .studio-main-wrapper .studio-body-text-main {
+    left: 5%;
+    top: 57%;
+    width: 90%;
+  }
+
   .contact .content .main .social-wrapper-contact ul {
     list-style-type: none;
   }
@@ -1537,5 +1554,23 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .contact .content .main .social-wrapper-contact ul :last-child {
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 330px) {
+  .studio .content .main {
+    float: none;
+    width: 100%;
+    height: 80%;
+    max-height: 80%;
+  }
+  .studio .content .main .studio-main-wrapper .studio-header-main {
+    left: 3%;
+    top: 38%;
+    width: 80%;
+  }
+  .studio .content .main .studio-main-wrapper .studio-body-text-main {
+    left: 3%;
+    top: 57%;
+    width: 95%;
   }
 }
