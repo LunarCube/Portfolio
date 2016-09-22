@@ -271,7 +271,7 @@ header{
   height: 100%;
 
 
-  .content{
+  .content-main{
     position: relative;
     width: 100%;
     height: 100%;
@@ -334,8 +334,45 @@ header{
           text-align: left;
         }
       }
-    } 
+    }
   }
+  .content-skills{
+    width: 100%;
+    height: 100%;
+
+    .aside{
+      width: 40%;
+      height: 100%;
+      min-height: 100%;
+      background: #ffb253;
+      display: inline-block;
+
+      .aside-img-wrapper{
+        width:100%;
+        height: 100%;
+        text-align: center;
+      }
+      img{
+        width: 85%;
+        max-height: 90%;
+        min-height: 328px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    .main{
+      float: right;
+      font-family: $font-p;
+      color: white;
+      text-align: center;
+      width: 59.5%;
+      height: 100%;
+      vertical-align: top;
+    }
+  }
+
   .vertical-line-top, .vertical-line-bottom{
     position: absolute;
     left: 50%;
@@ -547,7 +584,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -655,7 +692,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -697,7 +734,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         max-height: 100px;
       }
 
-      .content{
+      .content-main{
         .main{
           .studio-main-wrapper{
             .studio-header-main{
@@ -750,7 +787,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         max-height: 100px;
       }
 
-      .content{
+      .content-main{
         .main{
           .studio-main-wrapper{
             .studio-header-main{
@@ -793,7 +830,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         max-height: 100px;
       }
 
-      .content{
+      .content-main{
         .main{
           .studio-main-wrapper{
             .studio-header-main{
@@ -836,7 +873,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -883,7 +920,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -937,7 +974,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -963,7 +1000,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -1033,7 +1070,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -1061,7 +1098,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         width: 59.5%;
 
@@ -1146,7 +1183,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       max-height: 100px;
     }
 
-    .content{
+    .content-main{
       .main{
         width: 58%;
 
@@ -1206,7 +1243,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       display: none;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -1289,7 +1326,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       display: none;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -1350,7 +1387,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       display: none;
     }
 
-    .content{
+    .content-main{
       .main{
         width: 0;
         .studio-main-wrapper{
@@ -1418,7 +1455,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       display: none;
     }
 
-    .content{
+    .content-main{
       .main{
         .studio-main-wrapper{
           .studio-header-main{
@@ -1587,7 +1624,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       display: none;
     }
 
-    .content{
+    .content-main{
       top: 0;
 
       .aside{
@@ -1627,6 +1664,31 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         }
       }
     }
+    .content-skills{
+      .aside{
+        width: 100%;
+        height: 20%;
+        min-height: 20%;
+        max-height: 20%;
+
+        .aside-img-wrapper{
+          img{
+            min-height: 100px;
+            max-height: 100px;
+          }
+        }
+      }
+      .main{
+        float: none;
+        width: 100%;
+        height: 80%;
+
+        .skills-main-wrapper{
+          img{}
+        }
+      }
+    }
+
     .studio-side-nav{
       font-family: $font-p;
       font-size: 1.4em;
@@ -1719,8 +1781,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 
   .studio{
 
-    .content{
-  
+    .content-main{
       .main{
         float: none;
         width: 100%;
@@ -1780,7 +1841,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 
   .studio{
 
-    .content{
+    .content-main{
   
       .main{
         float: none;
@@ -1910,9 +1971,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .studio{
-
-    .content{
-  
+    .content-main{
       .main{
         float: none;
         width: 100%;
@@ -1957,9 +2016,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 
 @media screen and(max-width: 330px){
   .studio{
-
-    .content{
-  
+    .content-main{
       .main{
         float: none;
         width: 100%;

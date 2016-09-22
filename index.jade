@@ -6,6 +6,7 @@ head
 	link(rel="stylesheet", href="Css/mystyles.css" type="text/css")
 	link(rel="stylesheet", href="Css/skeleton.css" type="text/css")
 	script(src="https://use.fontawesome.com/fc9ea1b824.js")
+	script(src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js")
 
 	link(href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet")
 
@@ -35,7 +36,7 @@ body
 
 		.main-wrapper
 			.main-module
-				.landing
+				.landing.hidden
 					.content
 						h1 Take The Day. Design Your Life.
 						img(src="assets/logo.svg", alt="LunarCube Logo")
@@ -62,8 +63,7 @@ body
 							path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
 
 
-				.studio.hidden
-					img.vertical-line-top(src="assets/vertical-line.svg", alt="top vertical line")
+				.studio
 
 					.studio-side-nav
 						ul
@@ -74,7 +74,9 @@ body
 							li
 								a(href="#") Process
 
-					.content
+					.content-main.hidden
+						img.vertical-line-top(src="assets/vertical-line.svg", alt="top vertical line")
+
 						.aside
 							.aside-img-wrapper
 								img.studio-logo-icon-main.studio-icon(src="assets/studio-main-logo.svg", alt="studio icon")
@@ -84,7 +86,18 @@ body
 								h1.studio-header-main Design &amp; Devolopment
 								p.studio-body-text-main LunarCube studios is a front-end design and development studio based in the United States. We specialize in creating  uniquely dynamic websites that are both responsively expressive and engaging. Pulling the user into an expereience as well emmersing them in your brand.
 
-					img.vertical-line-bottom(src="assets/vertical-line.svg", alt="top vertical line")
+						img.vertical-line-bottom(src="assets/vertical-line.svg", alt="top vertical line")
+
+
+					.content-skills
+						.aside
+							.aside-img-wrapper
+								img(src="assets/studio-skills-logo.svg", alt="yellow and black version of the studio logo.")
+						.main
+							.skills-main-wrapper
+
+
+
 
 
 
