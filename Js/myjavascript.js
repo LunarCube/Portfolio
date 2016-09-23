@@ -3,6 +3,10 @@
 $(document).ready(function(){
 //////////////////////////////////////////////////////////on load
 	$(window).load(function(){
+		$('.flexslider').flexslider({
+    		animation: "slide"
+  		});
+  		
 		var viewportWidth = $(window).width();
 		if (viewportWidth <= 700){
 			$('.logo').removeClass('three columns').addClass('six columns');
