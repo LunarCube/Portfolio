@@ -182,7 +182,19 @@ $(document).ready(function(){
 			});
 		};
 	});
-
 ///////////////////////////////////////////////////////responsive type end
+///////////////////////////////////////////////////////mason
+	$(window).load(function(){
+
+		$('.grid').masonry({
+			itemSelector: '.grid-item',
+  			columnWidth: '.grid-sizer',
+  			percentPosition: true,
+  			gutter: 1,
+		});
+
+	});
+
+///////////////////////////////////////////////////////end mason
 
 }); //////////////////////////////////////////////////////end document ready

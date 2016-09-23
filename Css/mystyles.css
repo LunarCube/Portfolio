@@ -349,6 +349,43 @@ header .nav-btn img {
   height: 100%;
   vertical-align: top;
 }
+.studio .content-skills .main .skills-main-wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+.studio .content-skills .main .skills-vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.studio .content-skills .main .grid {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.studio .content-skills .main .grid .grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.studio .content-skills .main .grid .grid-item, .studio .content-skills .main .grid .grid-sizer {
+  width: 33.333333%;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-175%);
+}
+.studio .content-skills .main .grid .grid-item {
+  margin-bottom: 5%;
+  min-height: 111px;
+}
+.studio .content-skills .main .grid img {
+  max-width: 80px;
+  max-height: 80px;
+  min-height: 80px;
+  width: 90%;
+}
 .studio .vertical-line-top, .studio .vertical-line-bottom {
   position: absolute;
   left: 50%;
