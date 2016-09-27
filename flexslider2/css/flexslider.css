@@ -34,6 +34,12 @@
   padding: 0;
   list-style: none;
 }
+.slides{
+  max-width: 100% !important;
+}
+.flex-slider{
+  max-height: 100%;
+}
 .flex-pauseplay span {
   text-transform: capitalize;
 }
