@@ -5,6 +5,7 @@ $(document).ready(function(){
 	$(window).load(function(){
 
 		var viewportWidth = $(window).width();
+
 		if (viewportWidth <= 700){
 			$('.logo').removeClass('three columns').addClass('six columns');
 			$('.quick-nav').removeClass('three columns').addClass('four columns');
@@ -16,8 +17,18 @@ $(document).ready(function(){
 		};
 		if (viewportWidth <= 500){
 			$('.contact-icon').attr('src', 'assets/contact-icon-mobile.svg');
-			$('.studio-icon').attr('src', 'assets/studio-mobile-logo.svg')
+			$('.studio-icon').attr('src', 'assets/studio-mobile-logo.svg');
 		};
+
+		if(viewportWidth > 500 && viewportWidth <= 750 && $('.content-skills').is(':visible')){
+			$('.studio-side-nav').css('top', '60%')
+		}else if(viewportWidth <= 500 && $('.content-skills').is(':visible')){
+			$('.studio-side-nav').css('top', '25%')
+		};
+
+		if(viewportWidth <= 650 && $('.content-skills').is(':visible')){
+			$('.studio-side-nav').css('transform', 'translateY(-50%)')
+		}
 	});
 
 ///////////////////////////////////////////////////////on resize
@@ -38,7 +49,7 @@ $(document).ready(function(){
 		}else if(viewportWidth < 600){
 			$('.logo').removeClass('six columns').addClass('ten columns');
 			$('.nav-btn').removeClass('one column').addClass('two columns');
-		}
+		};
 	});
 
 	$(window).resize(function(){
@@ -50,8 +61,16 @@ $(document).ready(function(){
 		}else if(viewportWidth > 500){
 			$('.contact-icon').attr('src', 'assets/contact-icon.svg');
 			$('.studio-icon').attr('src', 'assets/studio-main-logo.svg')
+		};
 
-		}
+		var viewportWidth = $(window).width();
+		if(viewportWidth > 500 && viewportWidth <= 750 && $('.content-skills').is(':visible')){
+			$('.studio-side-nav').css('top', '60%')
+		}else if(viewportWidth <= 500 && $('.content-skills').is(':visible')){
+			$('.studio-side-nav').css('top', '25%')
+		}else if(viewportWidth > 750 && $('.content-skills').is(':visible')){
+			$('.studio-side-nav').css('top', '50%')
+		};
 	});
 
 /////////////////////////////////////////////////////standard values

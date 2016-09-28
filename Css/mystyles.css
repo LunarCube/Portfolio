@@ -131,6 +131,7 @@ header .nav-btn img {
   width: 100%;
   height: 85%;
   padding: 2.5%;
+  overflow: hidden;
 }
 
 .main-module {
@@ -1065,6 +1066,37 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     top: 57.5%;
     width: 48%;
   }
+  .studio .content-skills .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    max-height: 20%;
+  }
+  .studio .content-skills .aside .aside-img-wrapper img {
+    min-height: 100px;
+    max-height: 100px;
+  }
+  .studio .content-skills .main {
+    float: none;
+    width: 100%;
+    height: 70%;
+  }
+  .studio .content-skills .main .skills-main-wrapper {
+    margin: 10% auto 0;
+    padding-top: 2%;
+    max-height: 100%;
+  }
+  .studio .content-skills .main .skills-main-wrapper .grid {
+    width: 70%;
+  }
+  .studio .content-skills .main .skills-main-wrapper .grid .grid-item {
+    margin-bottom: 0%;
+  }
+  .studio .content-skills .main .skills-main-wrapper .grid img {
+    min-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+  }
 }
 @media screen and (max-width: 700px) {
   header .logo {
@@ -1130,9 +1162,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     left: 17.5%;
     top: 58.5%;
     width: 48%;
-  }
-  .studio .content-skills .main .skills-main-wrapper {
-    margin-left: -12%;
   }
 }
 @media screen and (max-width: 675px) {
@@ -1297,6 +1326,38 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     transform: translateY(25%);
   }
 
+  .studio .content-skills .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    max-height: 20%;
+  }
+  .studio .content-skills .aside .aside-img-wrapper img {
+    min-height: 100px;
+    max-height: 100px;
+  }
+  .studio .content-skills .main {
+    float: none;
+    width: 100%;
+    height: 70%;
+  }
+  .studio .content-skills .main .skills-main-wrapper {
+    margin: 10% auto 0;
+    padding-top: 12%;
+    max-height: 100%;
+  }
+  .studio .content-skills .main .skills-main-wrapper .grid {
+    width: 65%;
+  }
+  .studio .content-skills .main .skills-main-wrapper .grid .grid-item {
+    margin-bottom: 0%;
+  }
+  .studio .content-skills .main .skills-main-wrapper .grid img {
+    min-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+  }
+
   .contact .content .main .contact-cta {
     min-width: 248px;
     margin: 13.5% auto;
@@ -1377,7 +1438,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .studio .content-main .main .studio-main-wrapper .studio-header-main {
     left: 12%;
-    top: 38%;
+    top: 35%;
     width: 80%;
   }
   .studio .content-main .main .studio-main-wrapper .studio-body-text-main {
@@ -1427,6 +1488,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     position: absolute;
     right: 0;
     z-index: 10;
+    margin-top: 0%;
   }
   .studio .studio-side-nav ul {
     list-style-type: none;
@@ -1495,7 +1557,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .studio .content-main .main .studio-main-wrapper .studio-header-main {
     left: 10%;
-    top: 38%;
+    top: 35%;
     width: 80%;
   }
   .studio .content-main .main .studio-main-wrapper .studio-body-text-main {
@@ -1541,7 +1603,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .studio .content-main .main .studio-main-wrapper .studio-header-main {
     left: 8%;
-    top: 38%;
+    top: 35%;
     width: 80%;
   }
   .studio .content-main .main .studio-main-wrapper .studio-body-text-main {
@@ -1647,7 +1709,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .studio .content-main .main .studio-main-wrapper .studio-header-main {
     left: 5%;
-    top: 38%;
+    top: 36%;
     width: 80%;
   }
   .studio .content-main .main .studio-main-wrapper .studio-body-text-main {
@@ -1687,7 +1749,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .studio .content-main .main .studio-main-wrapper .studio-header-main {
     left: 3%;
-    top: 38%;
+    top: 36%;
     width: 80%;
   }
   .studio .content-main .main .studio-main-wrapper .studio-body-text-main {
