@@ -1,11 +1,5 @@
 /* This is where my Js goes*/
 
-document.body.style.webkitTransform =  'scale(1)';
-document.body.style.msTransform =   'scale(100)';
-document.body.style.transform = 'scale(1)';
-document.body.style.zoom = screen.logicalXDPI / screen.deviceXDPI;
-
-
 /*jquery here */
 
 $(document).ready(function(){
@@ -70,7 +64,7 @@ $(document).ready(function(){
 			$('.nav-btn').removeClass('one column').addClass('two columns');
 		};
 
-		if(viewportWidth <= 700){
+		if(viewportWidth < 700){
 			$('.header-cta').addClass('hidden');
 		}else{
 			$('.header-cta').removeClass('hidden');

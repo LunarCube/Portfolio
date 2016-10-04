@@ -7,6 +7,8 @@ head
 	link(rel="stylesheet", href="Css/skeleton.css" type="text/css")
 	link(rel="stylesheet", href="Css/sliderwall_bullets_skin.css" type="text/css")
 	link(href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet")
+	script(src="https://use.fontawesome.com/fc9ea1b824.js")
+	script(src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js")
 
 
 	title LunarCube Studios
@@ -34,7 +36,7 @@ body
 
 		.main-wrapper
 			.main-module
-				.landing.hidden
+				.landing
 					.content
 						h1 Take The Day. Design Your Life.
 						img(src="assets/logo.svg", alt="LunarCube Logo")
@@ -61,7 +63,7 @@ body
 							path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
 
 
-				.studio
+				.studio.hidden
 					.studio-side-nav
 						ul
 							li
@@ -71,7 +73,7 @@ body
 							li
 								a(href="#") Process
 
-					.content-main.hidden
+					.content-main
 						img.vertical-line-top(src="assets/vertical-line.svg", alt="top vertical line")
 
 						.aside
@@ -122,7 +124,7 @@ body
 										img(src="assets/ai-icon.svg", alt="Illustrator logo design")
 										p Illustrator
 
-					.content-process
+					.content-process.hidden
 						.aside
 							.aside-img-wrapper
 								img(src="assets/studio-process-logo.svg", alt="process logo")
@@ -178,6 +180,4 @@ body
 	script(type="text/javascript" src="js/myjavascript.js")
 	script(type="text/javascript" src="js/flowtype.js")
 	script(type="text/javascript" src="js/enquire.js")
-	script(src="https://use.fontawesome.com/fc9ea1b824.js")
-	script(src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js")
 	script(src="Js/sliderwall-bullets-1.1.2.js")
