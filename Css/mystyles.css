@@ -383,6 +383,40 @@ header .nav-btn img {
   min-width: 80px;
   width: 90%;
 }
+.studio .content-process {
+  width: 100%;
+  height: 100%;
+}
+.studio .content-process .aside {
+  width: 40%;
+  height: 100%;
+  min-height: 100%;
+  background: #ffb253;
+  display: inline-block;
+}
+.studio .content-process .aside .aside-img-wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.studio .content-process .aside img {
+  width: 85%;
+  max-height: 90%;
+  min-height: 328px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.studio .content-process .main {
+  width: 59.5%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.studio .content-process .main .studio-main-wrapper {
+  width: 100%;
+  height: 100%;
+}
 .studio .vertical-line-top, .studio .vertical-line-bottom {
   position: absolute;
   left: 50%;
@@ -1115,9 +1149,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   header .quick-nav :nth-child(2) {
     margin: 0 5%;
   }
-  header .header-cta {
-    display: none;
-  }
   header .nav-btn {
     padding: 0;
   }
@@ -1476,6 +1507,26 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     min-width: 60px;
     min-height: 60px;
     max-height: 60px;
+  }
+  .studio .content-process .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    max-height: 20%;
+  }
+  .studio .content-process .aside .aside-img-wrapper img {
+    min-height: 100px;
+    max-height: 100px;
+  }
+  .studio .content-process .main {
+    float: none;
+    width: 100%;
+    height: 70%;
+  }
+  .studio .content-process .main .skills-main-wrapper {
+    margin: 10% auto 0;
+    padding-top: 15%;
+    max-height: 100%;
   }
   .studio .studio-side-nav {
     font-family: "Merriweather", serif;

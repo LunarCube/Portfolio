@@ -1,7 +1,14 @@
 /* This is where my Js goes*/
 
+document.body.style.webkitTransform =  'scale(1)';
+document.body.style.msTransform =   'scale(100)';
+document.body.style.transform = 'scale(1)';
+document.body.style.zoom = screen.logicalXDPI / screen.deviceXDPI;
+
+
+/*jquery here */
+
 $(document).ready(function(){
-//////////////////////////////////////////////////////////on load
 	$(window).load(function(){
 
 		var viewportWidth = $(window).width();
@@ -28,7 +35,19 @@ $(document).ready(function(){
 
 		if(viewportWidth <= 650 && $('.content-skills').is(':visible')){
 			$('.studio-side-nav').css('transform', 'translateY(-50%)')
-		}
+		};
+
+		if(viewportWidth <= 700){
+			$('.header-cta').addClass('hidden');
+		}else{
+			$('.header-cta').removeClass('hidden');
+		};
+
+		if(viewportWidth <= 600){
+			$('.quick-nav').addClass('hidden');
+		}else{
+			$('.quick-nav').removeClass('hidden');
+		};
 	});
 
 ///////////////////////////////////////////////////////on resize
@@ -36,20 +55,33 @@ $(document).ready(function(){
 
 		var viewportWidth = $(window).width();
 		if (viewportWidth >= 700){
-			$('.logo').removeClass('six three ten columns').addClass('three columns');
-			$('.quick-nav').removeClass('three four columns').addClass('three columns');
+			$('.logo').removeClass('six  ten columns').addClass('three columns');
+			$('.quick-nav').removeClass(' four columns').addClass('three columns');
 			$('.header-cta').removeClass('offset-by-two three columns').addClass('offset-by-two three columns');
 			$('.nav-btn').removeClass('one two column columns').addClass('one column');
 			
-		}else if(viewportWidth < 700 && viewportWidth >= 600){
+		}else if(viewportWidth < 700 && viewportWidth > 600){
 			$('.logo').removeClass('three ten columns').addClass('six columns');
 			$('.quick-nav').removeClass('three columns').addClass('four columns');
-			$('.header-cta').removeClass('offset-by-two three columns');
 			$('.nav-btn').removeClass('one column').addClass('two columns');
-		}else if(viewportWidth < 600){
+			$('.header-cta').removeClass('offset-by-two three columns');
+		}else if(viewportWidth <= 600){
 			$('.logo').removeClass('six columns').addClass('ten columns');
 			$('.nav-btn').removeClass('one column').addClass('two columns');
 		};
+
+		if(viewportWidth <= 700){
+			$('.header-cta').addClass('hidden');
+		}else{
+			$('.header-cta').removeClass('hidden');
+		};
+
+		if(viewportWidth <= 600){
+			$('.quick-nav').addClass('hidden');
+		}else{
+			$('.quick-nav').removeClass('hidden');
+		};
+
 	});
 
 	$(window).resize(function(){
