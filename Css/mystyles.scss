@@ -2074,36 +2074,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 30%;
   }
 
-  .vision{
-    padding-top: 32%;
-
-    .content{
-      .vision-header{
-        width: 70%;
-        top: 10%;
-        left: 10%;
-      }
-      .vision-body-text{
-        width: 80%;
-        top: 70%;
-        left: 10%;
-      }
-
-      img{
-        margin-left: 6%;
-        min-width: 315px;
-      }
-    }
-
-    .scroll-icon{
-    transform: translateY(150%);
-
-      svg{
-        min-width: 20px;
-      }
-    }
-  }
-
   .studio{
 
     .content-main{
@@ -2134,6 +2104,36 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
           padding-top: 23%;
           max-height: 100%; 
         }
+      }
+    }
+  }
+
+  .vision{
+    padding-top: 32%;
+
+    .content{
+      .vision-header{
+        width: 70%;
+        top: 10%;
+        left: 10%;
+      }
+      .vision-body-text{
+        width: 80%;
+        top: 70%;
+        left: 10%;
+      }
+
+      img{
+        margin-left: 6%;
+        min-width: 315px;
+      }
+    }
+
+    .scroll-icon{
+    transform: translateY(150%);
+
+      svg{
+        min-width: 20px;
       }
     }
   }
