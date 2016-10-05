@@ -9,8 +9,7 @@ head
 	link(href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet")
 	script(src="https://use.fontawesome.com/fc9ea1b824.js")
 	script(src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js")
-
-
+	
 	title LunarCube Studios
 body
 	.container
@@ -20,14 +19,16 @@ body
 					a(href="#")
 						img(src="assets/logo.svg", alt="LunarCube Logo in the top left corner.")
 						p LunarCube
+
 				.quick-nav.three.columns
 					ul
 						li
 							a(href="#") Portfolio
 						li
-							a(href="#")	Github
+							a(href="#") Github
 						li
-							a(href="#")	Blog
+							a(href="#") Blog
+
 				.header-cta.offset-by-two.columns.three.columns
 					p Got Work?
 					a(href="#"): p Hire Me!
@@ -132,8 +133,22 @@ body
 						.main
 							.process-main-wrapper
 								.slider-wrapper
+									#imageSlideshow
+										div(rel="slider_content" style="display: none;")
+											div(rel="slide")
+												div(rel="type") image
+												div(rel="title") Analysis
+												div(rel="discription") The first step is an in depth anlysis of your brand and the details of your particular project.
+												div(rel="content") assets/analysis.svg
+												div(rel="target_window") blank
 
-
+											div(rel="slide")
+												div(rel="type") image
+												div(rel="title") content
+												div(rel="discription") We work with you to generate your content and give each project a unique presentation.
+												div(rel="content") assets/content.svg
+												div(rel="target_window") blank
+				
 
 				.contact.hidden
 					.content
@@ -180,4 +195,7 @@ body
 	script(type="text/javascript" src="js/myjavascript.js")
 	script(type="text/javascript" src="js/flowtype.js")
 	script(type="text/javascript" src="js/enquire.js")
-	script(src="Js/sliderwall-bullets-1.1.2.js")
+	script(type="text/javascript" src="Js/min/jquery-1.7.1.min.js")
+	script(type="text/javascript" src="Js/sliderwall-bullets-1.1.2.js")
+
+	
