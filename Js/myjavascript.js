@@ -244,4 +244,39 @@ $(document).ready(function(){
 ///////////////////////////////////////////////////////end mason
 //////////////////////////////////////////////////////SliderWall
 
+	var err;
+	$(document).ready(function() {
+	  try {
+	    $("#imageSlideshow").sliderWallBullets({
+	      cssClassSuffix: "",
+	      domainKeys: "",
+	      imageAlign: "middleCenter",
+	      imageScaleMode: "scaleCrop",
+	      loopContent: true,
+	      rssFeed: null,
+	      selectableContent: true,
+	      autoSlideShow: false,
+	      slideShowSpeed: 6,
+	      showTimer: true,
+	      timerPosition: "belowControlBar",
+	      autoHideControlBar: true,
+	      controlsHideDelay: 2,
+	      controlsShowHideSpeed: 0.2,
+	      showControlBar: true,
+	      autoHideNavButtons: true,
+	      showNavigationButtons: true,
+	      autoHideText: true,
+	      useGestures: true,
+	      useKeyboard: true,
+	      useMouseScroll: true,
+	      transitionType: {
+	          optimizeForIpad: false,
+	          random: false,
+	          transitions: [{name: "Slide", direction: "horizontal", duration: 0.75, tweenType: "Expo", easing: "easeInOut"}]
+	      }
+	    });
+	    var slider = $("#imageSlideshow").data("sliderWall");
+	  } catch(err) { /* handle any errors */ }
+	})
+
 }); //////////////////////////////////////////////////////end document ready
