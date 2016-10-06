@@ -42,10 +42,10 @@ The title of the slide.
 .sw_title {
 	color: #141414;
     font-family: 'Merriweather', serif;
-    font-size: 24px;
+    font-size: 30px;
     font-style: normal;
     font-weight: bold;
-	margin-top: 10px;
+	margin-top: 5%;
 	margin-left: 14px;
 	margin-right: 14px;
 }
@@ -60,7 +60,7 @@ The description of the slide.
     font-style: normal;
     font-weight: bold;
 	overflow: hidden;
-	margin-top: 5px;
+	margin-top: 43%;
 	margin-left: 14px;
 	margin-right: 14px;
 	margin-bottom: 15px;
