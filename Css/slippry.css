@@ -32,7 +32,7 @@
 }
 /* added to the original element calling slippry */
 .sy-box.sy-loading {
-  background: url("/images/sy-loader.gif") 50% 50% no-repeat;
+  background: url(".../images/sy-loader.gif") 50% 50% no-repeat;
   background-size: 32px;
   min-height: 40px;
 }
@@ -166,7 +166,7 @@
 }
 .sy-controls li a:after {
   content: "";
-  background-image: url("/images/arrows.svg");
+  background-image: url(".../images/arrows.svg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
