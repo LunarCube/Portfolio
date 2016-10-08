@@ -18,8 +18,8 @@ $controls_size: 2.8em !default;    // size of the next/ prev buttons
 $pager_size: 1.2em !default;       // size of the pager bubbles
 $trans_ease: ease !default;        // easing for the transitions
 $mobile_break: 600px !default;     // breakpoint to use some special mobile styling
-$spinner_url: '.../images/sy-loader.gif' !default;
-$arrows_url: '.../images/arrows.svg' !default;
+$spinner_url: '../images/sy-loader.gif' !default;
+$arrows_url: '../images/arrows.svg' !default;
 
 @mixin animation ($animation) {
   animation-name: $animation;
@@ -71,7 +71,7 @@ $arrows_url: '.../images/arrows.svg' !default;
   height: 100%;
   width: 100%;
   position: absolute;
-  overflow: hidden;
+  //overflow: hidden;
 }
 /* list containing the slides */
 .sy-list {
@@ -171,11 +171,12 @@ $arrows_url: '.../images/arrows.svg' !default;
       height: 100%;
       display: block;
       text-indent: -9999px;
+      transition: .3s linear;
       &:link, &:visited {
         opacity: 0.4;
       }
       &:hover, &:focus {
-        opacity: 0.8;
+        opacity: 1;
         outline: none;
       }
       &:after {
@@ -189,7 +190,6 @@ $arrows_url: '.../images/arrows.svg' !default;
         color: #111;
         font-weight: 800;
         position: absolute;
-        background-color: #fff;
         width: $controls_size;
         height: $controls_size;
         left: 50%;
@@ -256,7 +256,7 @@ $arrows_url: '.../images/arrows.svg' !default;
   clear: both;
   display: block;
   width: 100%;
-  margin: 1em 0 0;
+  margin: 3em 0 0;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -268,14 +268,14 @@ $arrows_url: '.../images/arrows.svg' !default;
     border-radius: 50%;
     &.sy-active {
       a {
-        background-color: $color_high;
+        background-color: #141414;
       }
     }
     a {
       width: 100%;
       height: 100%;
       display: block;
-      background-color: $color_gray;
+      border: 3px solid #141414;
       text-indent: -9999px;
       &:link, &:visited {
         opacity: 1.0;

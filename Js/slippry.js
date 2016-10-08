@@ -281,7 +281,7 @@
           wrapper = $(slip.settings.captionsEl);
         }
         if ((caption !== undefined) && (caption !== '')) {
-          wrapper.html(caption).show();
+          wrapper.html(caption).hide();
         } else {
           wrapper.hide();
         }

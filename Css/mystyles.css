@@ -439,7 +439,7 @@ header .nav-btn img {
   max-height: 92%;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider {
-  margin-top: 5%;
+  margin-top: 3.5%;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow .sy-box {
   max-width: 100%;
@@ -459,9 +459,12 @@ header .nav-btn img {
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow p {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  font-size: 24px;
-  width: 70%;
+  font-size: 22px;
+  width: 85%;
   margin: 0 auto;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow .sizer {
+  width: 70%;
 }
 .studio .vertical-line-top, .studio .vertical-line-bottom {
   position: absolute;

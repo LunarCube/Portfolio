@@ -471,7 +471,7 @@ header{
             max-height: 92%;
 
             #slipprySlider{
-              margin-top: 5%;
+              margin-top: 3.5%;
             }
 
             .sy-box,{
@@ -492,9 +492,12 @@ header{
             p{
               font-family: $font-s;
               font-weight: bold;
-              font-size: 24px;
-              width: 70%;
+              font-size: 22px;
+              width: 85%;
               margin: 0 auto;
+            }
+            .sizer{
+              width: 70%;
             }
           }
         }
