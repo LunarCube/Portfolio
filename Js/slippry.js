@@ -62,7 +62,7 @@
     useCSS: true, // true, false -> fallback to js if no browser support
 
     //slideshow
-    auto: true,
+    auto: false,
     autoDirection: 'next',
     autoHover: true,
     autoHoverDelay: 100,
