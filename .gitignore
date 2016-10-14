@@ -51,3 +51,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+*.js
+Js/min/myjavascript.min.js
+*.js
