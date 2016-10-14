@@ -136,7 +136,7 @@ $(document).ready(function(){
 	$('.process-header-text').flowtype({
 		minimum   : 320,
 	 	maximum   : 1600,
-	 	minFont   : 16,
+	 	minFont   : 20,
 	 	maxFont   : 34,
 	 	fontRatio : 10.8
 	});
@@ -243,6 +243,7 @@ $(document).ready(function(){
 			 	fontRatio : 10.8
 			});
 		};
+
 	});
 ///////////////////////////////////////////////////////responsive type end
 ///////////////////////////////////////////////////////mason
