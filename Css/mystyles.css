@@ -455,11 +455,12 @@ header .nav-btn img {
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow h1 {
   font-family: "Merriweather", serif;
   font-weight: 900;
+  font-size: 3.5rem;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow p {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 2rem;
   width: 85%;
   margin: 0 auto;
 }

@@ -707,4 +707,5 @@
 
     return this;
   };
+  
 }(jQuery));
