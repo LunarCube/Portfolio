@@ -448,6 +448,8 @@ header .nav-btn img {
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow img {
   width: 30.8%;
   height: 30.8%;
+  max-width: 195px;
+  max-height: 195px;
   margin: 5% auto;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow h1 {

@@ -133,6 +133,22 @@ $(document).ready(function(){
 	 	fontRatio : 30
 	});
 
+	$('.process-header-text').flowtype({
+		minimum   : 320,
+	 	maximum   : 1600,
+	 	minFont   : 16,
+	 	maxFont   : 34,
+	 	fontRatio : 9
+	});
+
+	$('.process-body-text').flowtype({
+		minimum   : 320,
+	 	maximum   : 1600,
+	 	minFont   : 16,
+	 	maxFont   : 22,
+	 	fontRatio : 10.8
+	});
+
 	$('.contact-header').flowtype({
 		minimum   : 320,
 	 	maximum   : 1600,
