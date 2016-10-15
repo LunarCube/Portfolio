@@ -97,6 +97,7 @@ $(document).ready(function(){
 		}else if(viewportWidth > 750 && $('.content-skills').is(':visible')){
 			$('.studio-side-nav').css('top', '50%')
 		};
+
 	});
 
 /////////////////////////////////////////////////////flowtype standard values
@@ -138,7 +139,7 @@ $(document).ready(function(){
 	 	maximum   : 1600,
 	 	minFont   : 20,
 	 	maxFont   : 34,
-	 	fontRatio : 10.8
+	 	fontRatio : 9
 	});
 
 	$('.process-body-text').flowtype({
