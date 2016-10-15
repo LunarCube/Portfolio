@@ -445,6 +445,13 @@ header .nav-btn img {
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li {
   width: 100%;
 }
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider .process-header-text {
+  width: 30%;
+  margin: 0 auto;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider .process-body-text {
+  width: 70%;
+}
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow .sy-box {
   max-width: 100%;
   max-height: 100%;
@@ -454,6 +461,8 @@ header .nav-btn img {
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow img {
   width: 30.8%;
   height: 30.8%;
+  min-width: 112px;
+  max-height: 195px;
   margin: 5% auto;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow h1 {
@@ -468,7 +477,7 @@ header .nav-btn img {
   margin: 0 auto;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow .sizer {
-  width: 70%;
+  width: 85% !important;
 }
 .studio .vertical-line-top, .studio .vertical-line-bottom {
   position: absolute;

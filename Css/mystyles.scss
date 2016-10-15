@@ -477,6 +477,13 @@ header{
               li{
                 width: 100%;
               }
+              .process-header-text{
+                width: 30%;
+                margin: 0 auto;
+              }
+              .process-body-text{
+                width: 70%;
+              }
             }
 
             .sy-box,{
@@ -488,8 +495,8 @@ header{
             img{
               width: 30.8%;
               height: 30.8%;
-              //max-width: 150px;
-             //max-height: 150px;
+              min-width: 112px;
+              max-height: 195px;
               margin: 5% auto;
             }
             h1{
@@ -504,7 +511,7 @@ header{
               margin: 0 auto;
             }
             .sizer{
-              width: 70%;
+              width: 85% !important;
             }
           }
         }
