@@ -1106,6 +1106,35 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         }
       }
     }
+
+    .content-process{
+      .main{
+        .process-main-wrapper{
+          .slider-wrapper{
+            #imageSlideshow{
+              #slipprySlider{
+                li {
+                  .process-header-text{
+                    width: 100%;
+                    font-size: 3rem;
+                  }
+                  .process-body-text{
+                    font-size: 2rem;
+                  }
+                  a{
+                    img{
+                      min-width: 165px;
+                      max-height: 165px;
+                      margin: 7% auto;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   .contact{
@@ -1391,6 +1420,37 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         }
       }
     }
+
+    .content-process{
+      .main{
+        .process-main-wrapper{
+          .slider-wrapper{
+            #imageSlideshow{
+              #slipprySlider{
+                li {
+                  .process-header-text{
+                    width: 100%;
+                    font-size: 2.9rem;
+                  }
+                  .process-body-text{
+                    font-size: 1.9rem;
+                    width: 95%;
+                  }
+                  a{
+                    img{
+                      min-width: 165px;
+                      max-height: 165px;
+                      margin: 12% auto;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
 
   .contact{
@@ -1569,6 +1629,35 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         }
       }
     }
+    .content-process{
+      .main{
+        .process-main-wrapper{
+          .slider-wrapper{
+            #imageSlideshow{
+              #slipprySlider{
+                li {
+                  .process-header-text{
+                    width: 100%;
+                    font-size: 2.8rem;
+                  }
+                  .process-body-text{
+                    font-size: 1.8rem;
+                    width: 95%;
+                  }
+                  a{
+                    img{
+                      min-width: 145px;
+                      max-height: 145px;
+                      margin: 20% auto;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 @media screen and (max-width: 675px) {
@@ -1635,7 +1724,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 
     .studio-side-nav{
     font-family: $font-p;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 800;
     position: absolute;
     top: 25%;
@@ -1701,6 +1790,36 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 
         img{
           min-width: 250px;
+        }
+      }
+    }
+
+    .content-process{
+      .main{
+        .process-main-wrapper{
+          .slider-wrapper{
+            #imageSlideshow{
+              #slipprySlider{
+                li {
+                  .process-header-text{
+                    width: 100%;
+                    font-size: 2.8rem;
+                  }
+                  .process-body-text{
+                    font-size: 1.8rem;
+                    width: 95%;
+                  }
+                  a{
+                    img{
+                      min-width: 145px;
+                      max-height: 145px;
+                      margin: 18% auto;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -1774,6 +1893,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 
   .studio{
+
     .content-skills{
       .aside{
         width: 100%;
@@ -1812,6 +1932,17 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
           }
         }
       }
+    }
+    .studio-side-nav{
+    font-family: $font-p;
+    font-size: 1em;
+    font-weight: 800;
+    position: absolute;
+    top: 25%;
+    right: 1.5%;
+    transform: translateY(-25%);
+    color: white;
+    text-align: right;
     }
   }
 
@@ -1987,12 +2118,48 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       .main{
         float: none;
         width: 100%;
-        height: 70%;
+        height: 100%;
 
-        .skills-main-wrapper{
+        .process-main-wrapper{
           margin: 10% auto 0;
-          padding-top: 15%;
+          padding-top: 2.5%;
           max-height: 100%;
+
+          .slider-wrapper{
+            max-width:100%;
+            max-height: 100%;
+            width: 100%;
+            height: 100%;
+            margin: 5% 0 0 0;
+            #imageSlideshow{
+              max-width: 100%;
+              width:100%;
+              height: 100%;
+              max-height: 560px;
+
+              #slipprySlider{
+                width: 100%;
+
+                li {
+                  .process-header-text{
+                    width: 100%;
+                    font-size: 2.9rem;
+                  }
+                  .process-body-text{
+                    font-size: 1.9rem;
+                    width: 95%;
+                  }
+                  a{
+                    img{
+                      min-width: 115px;
+                      max-height: 115px;
+                      margin: 3.5% auto;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -2177,6 +2344,68 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
         }
       }
     }
+    .content-process{
+      .aside{
+        width: 100%;
+        height: 20%;
+        min-height: 20%;
+        max-height: 20%;
+
+        .aside-img-wrapper{
+          img{
+            min-height: 100px;
+            max-height: 100px;
+          }
+        }
+      }
+      .main{
+        float: none;
+        width: 100%;
+        height: 100%;
+
+        .process-main-wrapper{
+          margin: 10% auto 0;
+          padding-top: 2.5%;
+          max-height: 100%;
+
+          .slider-wrapper{
+            max-width:100%;
+            max-height: 100%;
+            width: 100%;
+            height: 100%;
+            margin: 5% 0 0 0;
+            #imageSlideshow{
+              max-width: 100%;
+              width:100%;
+              height: 100%;
+              max-height: 560px;
+
+              #slipprySlider{
+                width: 100%;
+
+                li {
+                  .process-header-text{
+                    width: 100%;
+                    font-size: 2.7rem;
+                  }
+                  .process-body-text{
+                    font-size: 1.7rem;
+                    width: 95%;
+                  }
+                  a{
+                    img{
+                      min-width: 115px;
+                      max-height: 115px;
+                      margin: 3.5% auto;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   .vision{
@@ -2239,6 +2468,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
     }
   }
+
 }
 @media screen and (max-width: 350px) {
   .landing{
