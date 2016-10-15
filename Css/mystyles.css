@@ -446,7 +446,7 @@ header .nav-btn img {
   width: 100%;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider .process-header-text {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
 }
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider .process-body-text {
@@ -461,7 +461,7 @@ header .nav-btn img {
 .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow img {
   width: 30.8%;
   height: 30.8%;
-  min-width: 112px;
+  min-width: 195px;
   max-height: 195px;
   margin: 5% auto;
 }
@@ -794,6 +794,10 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 48%;
   }
 
+  .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li a img {
+    margin: 6% auto;
+  }
+
   .contact .content .main .contact-cta {
     margin: 10% auto;
   }
@@ -962,6 +966,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     top: 55.5%;
     left: 26.5%;
     width: 48%;
+  }
+  .studio .content-process .main {
+    width: 59%;
   }
 }
 @media screen and (max-width: 950px) {
