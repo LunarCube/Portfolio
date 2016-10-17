@@ -247,11 +247,19 @@ $(document).ready(function(){
 	jQuery('#slipprySlider').slippry({
 	});
 //////////////////////////////////////////////////////nav toggle
-	$(".nav-btn").click(function(){
-		$(".pop-out-wrapper").show("slow");
+	$('.nav-btn').click(function(){
+		$('.burger-btn-on').hide('fast', function(){
+			$('.pop-out-wrapper').show('slow', function(){
+				$('.burger-btn-x').show('fast');
+			});
+		});
 	});
-	$(".nav-btn-x").click(function(){
-		$(".pop-out-wrapper").hide("slow");
-	})
+	$('.nav-btn-x').click(function(){
+		$('.burger-btn-x').hide('fast', function(){
+			$('.pop-out-wrapper').hide('slow', function(){
+				$('.burger-btn-on').show('fast');
+			});
+		});
+	});
 
 }); //////////////////////////////////////////////////////end document ready...

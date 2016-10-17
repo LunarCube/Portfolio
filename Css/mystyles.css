@@ -172,6 +172,9 @@ header .nav-btn img {
   top: 40px;
   right: 40px;
 }
+.pop-out-wrapper .nav-pop-out .nav-btn-x .burger-btn-x {
+  display: none;
+}
 .pop-out-wrapper .nav-pop-out .pop-content-wrapper {
   position: relative;
   top: 50%;
