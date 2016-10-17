@@ -246,6 +246,12 @@ $(document).ready(function(){
 //////////////////////////////////////////////////////Slippry
 	jQuery('#slipprySlider').slippry({
 	});
-	
+//////////////////////////////////////////////////////nav toggle
+	$(".nav-btn").click(function(){
+		$(".pop-out-wrapper").show("slow");
+	});
+	$(".nav-btn-x").click(function(){
+		$(".pop-out-wrapper").hide("slow");
+	})
 
 }); //////////////////////////////////////////////////////end document ready...

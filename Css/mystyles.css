@@ -29,6 +29,7 @@ body {
   height: 100%;
   background: white;
   position: relative;
+  overflow: hidden;
 }
 
 .row {
@@ -151,6 +152,7 @@ header .nav-btn img {
   width: 22%;
   min-width: 302px;
   height: 100%;
+  display: none;
 }
 .pop-out-wrapper .nav-pop-out {
   background: #292626;
@@ -2055,6 +2057,14 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 330px) {
+  .pop-out-wrapper .nav-pop-out .nav-btn-x {
+    right: 15px;
+    top: 30px;
+  }
+  .pop-out-wrapper .nav-pop-out .nav-btn-x img {
+    max-width: 20px;
+  }
+
   .studio .content-main .main {
     float: none;
     width: 100%;
