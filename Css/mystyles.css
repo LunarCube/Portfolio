@@ -170,7 +170,7 @@ header .nav-btn img {
   position: absolute;
   z-index: 101;
   top: 40px;
-  right: 40px;
+  right: 45px;
 }
 .pop-out-wrapper .nav-pop-out .nav-btn-x .burger-btn-x {
   display: none;
@@ -1012,6 +1012,14 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 1000px) {
+  .pop-out-wrapper .nav-pop-out .nav-btn-x {
+    right: 30px;
+    top: 30px;
+  }
+  .pop-out-wrapper .nav-pop-out .nav-btn-x img {
+    max-width: 25px;
+  }
+
   .landing {
     padding-top: 13%;
   }
@@ -1313,6 +1321,14 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 50%;
   }
 
+  .pop-out-wrapper .nav-pop-out .nav-btn-x {
+    right: 45px;
+    top: 30px;
+  }
+  .pop-out-wrapper .nav-pop-out .nav-btn-x img {
+    max-width: 30px;
+  }
+
   .landing {
     padding-top: 17%;
   }
@@ -1505,6 +1521,14 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 550px) {
+  .pop-out-wrapper .nav-pop-out .nav-btn-x {
+    right: 35px;
+    top: 30px;
+  }
+  .pop-out-wrapper .nav-pop-out .nav-btn-x img {
+    max-width: 25px;
+  }
+
   .landing {
     padding-top: 22%;
   }
@@ -1819,6 +1843,14 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 450px) {
+  .pop-out-wrapper .nav-pop-out .nav-btn-x {
+    right: 20px;
+    top: 30px;
+  }
+  .pop-out-wrapper .nav-pop-out .nav-btn-x img {
+    max-width: 25px;
+  }
+
   .studio .content-main .main {
     float: none;
     width: 100%;
