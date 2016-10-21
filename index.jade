@@ -6,6 +6,7 @@ head
 	link(rel="stylesheet", href="Css/mystyles.css" type="text/css")
 	link(rel="stylesheet", href="Css/skeleton.css" type="text/css")
 	link(rel="stylesheet", href="Css/slippry.css" type="text/css")
+	link(rel="stylesheet", href="Css/jquery.fullPage.css" type="text/css")
 	link(href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet")
 	script(src="https://use.fontawesome.com/fc9ea1b824.js")
 	script(src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js")
@@ -71,184 +72,184 @@ body
 
 		.main-wrapper
 			.main-module
+				#fullpage
+					.landing.section
+						.content
+							h1 Take The Day. Design Your Life.
+							img(src="assets/logo.svg", alt="LunarCube Logo")
+							.landing-cta
+								a(href="#"): p Get Started
+							.scroll-icon
+								svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-236 227 27 48" style="enable-background:new -236 227 27 48;" xml:space="preserve")
+									path.shell(d="M-223,228.5h1c6.4,0,11.5,5.1,11.5,11.5v22c0,6.4-5.1,11.5-11.5,11.5h-1c-6.4,0-11.5-5.1-11.5-11.5v-22 C-234.5,233.6-229.4,228.5-223,228.5z")
+									path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
 
-				.landing.active-page
-					.content
-						h1 Take The Day. Design Your Life.
-						img(src="assets/logo.svg", alt="LunarCube Logo")
-					.landing-cta
-						a(href="#"): p Get Started
-					.scroll-icon
-						svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-236 227 27 48" style="enable-background:new -236 227 27 48;" xml:space="preserve")
-							path.shell(d="M-223,228.5h1c6.4,0,11.5,5.1,11.5,11.5v22c0,6.4-5.1,11.5-11.5,11.5h-1c-6.4,0-11.5-5.1-11.5-11.5v-22 C-234.5,233.6-229.4,228.5-223,228.5z")
-							path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
+					.vision.section.hidden
+						.content
+							.aside
+								.aside-img-wrapper
+									img(src="assets/vision-icon.svg", alt="vision icon")
+							.main
+								.vision-main-wrapper
+									h1.vision-header Simply Creative. Unique &amp; Functional.
+									p.vision-body-text Here at LunarCube, we work to promote your brand through expressive unique design and an intuitively engaging  user interface. We work with you to interpret your ideas and manifest them as your creative vision.
 
-				.vision.hidden
-					.content
-						.aside
-							.aside-img-wrapper
-								img(src="assets/vision-icon.svg", alt="vision icon")
-						.main
-							.vision-main-wrapper
-								h1.vision-header Simply Creative. Unique &amp; Functional.
-								p.vision-body-text Here at LunarCube, we work to promote your brand through expressive unique design and an intuitively engaging  user interface. We work with you to interpret your ideas and manifest them as your creative vision.
-
-					.scroll-icon
-						svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-236 227 27 48" style="enable-background:new -236 227 27 48;" xml:space="preserve")
-							path.shell(d="M-223,228.5h1c6.4,0,11.5,5.1,11.5,11.5v22c0,6.4-5.1,11.5-11.5,11.5h-1c-6.4,0-11.5-5.1-11.5-11.5v-22 C-234.5,233.6-229.4,228.5-223,228.5z")
-							path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
+						.scroll-icon
+							svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-236 227 27 48" style="enable-background:new -236 227 27 48;" xml:space="preserve")
+								path.shell(d="M-223,228.5h1c6.4,0,11.5,5.1,11.5,11.5v22c0,6.4-5.1,11.5-11.5,11.5h-1c-6.4,0-11.5-5.1-11.5-11.5v-22 C-234.5,233.6-229.4,228.5-223,228.5z")
+								path.wheel(d="M-223.5,243.5h2c2.2,0,4,1.8,4,4v7c0,2.2-1.8,4-4,4h-2c-2.2,0-4-1.8-4-4v-7 C-227.5,245.3-225.7,243.5-223.5,243.5z")
 
 
-				.studio.hiden
-					.studio-side-nav
+					.studio.section.hidden
+						.studio-side-nav
+							ul
+								li
+									a(href="#") Studio
+								li
+									a(href="#") Skills
+								li
+									a(href="#") Process
+
+						.content-main
+							img.vertical-line-top(src="assets/vertical-line.svg", alt="top vertical line")
+
+							.aside
+								.aside-img-wrapper
+									img.studio-logo-icon-main.studio-icon(src="assets/studio-main-logo.svg", alt="studio icon")
+
+							.main
+								.studio-main-wrapper
+									h1.studio-header-main Design &amp; Devolopment
+									p.studio-body-text-main LunarCube studios is a front-end design and development studio based in the United States. We specialize in creating  uniquely dynamic websites that are both responsively expressive and engaging. Pulling the user into an expereience as well emmersing them in your brand.
+
+							img.vertical-line-bottom(src="assets/vertical-line.svg", alt="top vertical line")
+
+
+						.content-skills.hidden
+							.aside
+								.aside-img-wrapper
+									img(src="assets/studio-skills-logo.svg", alt="yellow and black version of the studio logo.")
+							.main
+								.skills-main-wrapper
+									.grid
+										.grid-sizer
+										.grid-item
+											img(src="assets/html-icon.svg" alt="html 5 logo design")
+											p Html5
+										.grid-item
+											img(src="assets/css-icon.svg" alt="Css 3 logo design")
+											p Css3
+										.grid-item
+											img(src="assets/jquery-icon.svg" alt="jquery logo design")
+											p jQuery
+										.grid-item
+											img(src="assets/jade-icon.svg" alt="jade logo design")
+											p Jade
+										.grid-item
+											img(src="assets/sass-icon.svg" alt="sass logo design")
+											p Sass
+										.grid-item
+											img(src="assets/bootstrap-icon.svg" alt="bootstrap logo design")
+											p Bootstrap
+										.grid-item
+											img(src="assets/ps-icon.svg", alt="Photoshop logo design")
+											p Photoshop
+										.grid-item
+											img(src="assets/id-icon.svg", alt="InDesign logo design")
+											p InDesign
+										.grid-item
+											img(src="assets/ai-icon.svg", alt="Illustrator logo design")
+											p Illustrator
+
+						.content-process.hidden
+							.aside
+								.aside-img-wrapper
+									img(src="assets/studio-process-logo.svg", alt="process logo")
+
+							.main
+								.process-main-wrapper
+									.slider-wrapper
+										#imageSlideshow
+											ul#slipprySlider
+												li
+													h1.process-header-text Analysis
+													a(href="#slide1")
+														img(src="assets/analysis-icon.svg", alt="analysis icon")
+													p.process-body-text The first step is an in depth analysis of your brand and the details of your particular project.
+												li
+													h1.process-header-text Content
+													a(href="#slide2")
+														img(src="assets/content-icon.svg", alt="content icon")
+													p.process-body-text We work with you to generate your content and give each project a unique presentation.
+												li
+													h1.process-header-text Wireframe
+													a(href="#slide3")
+														img(src="assets/wireframe-icon.svg", alt="wireframe icon")
+													p.sizer.process-body-text The next step is the production of a prototype using wireframes to sketch out the basic design, concepts and ideas of your project.
+												li
+													h1.process-header-text Design
+													a(href="#slide4")
+														img(src="assets/design-icon.svg", alt="design icon")
+													p.sizer.process-body-text LunarCube design will craft your brand identity into an aesthetically pleasing and unique experience that engages and informs the user.
+												li
+													h1.process-header-text Development
+													a(href="#slide5")
+														img(src="assets/development-icon.svg", alt="development icon")
+													p.sizer.process-body-text Development is clean, dynamic and responsive. Ensuring your content can be viewed and accessed on all modern devices.
+												li
+													h1.process-header-text Animation
+													a(href="#slide6")
+														img(src="assets/animation-icon.svg", alt="animation icon")
+													p.sizer.process-body-text Animations bring life and movement to your project, engaging the user and providing an overall unique user experience.
+												li
+													h1.process-header-text Testing
+													a(href="#slide7")
+														img(src="assets/testing-icon.svg", alt="testing icon")
+													p.sizer.process-body-text We rigorously test accross all major operating systems, browsers and mobile viewing devices to guarantee accessability of your product.
+												li
+													h1.process-header-text Follow-up
+													a(href="#slide8")
+														img(src="assets/follow-up-icon.svg", alt="follow up icon")
+													p.sizer.process-body-text Once your site has been lanuched we will follow up with you often and be with you every step of the way. Thats the LunarCube guarantee.
+
+											
+					
+
+					.contact.section.hidden
+						.content
+							.aside
+								.aside-img-wrapper
+									img.contact-icon(src="assets/contact-icon.svg", alt="contact logo")
+							.main
+								.contact-main-wrapper
+									.contact-vertical-center
+										h1.contact-header Contact Me:
+
+										.contact-cta
+											a(href="#")
+												p.contact-cta-text LunarCube@Gmail.com
+
+										.social-wrapper-contact
+											ul
+												li
+													a(href="#"): img(src="assets/twitter-icon.svg", alt="twitter logo icon")
+												li
+													a(href="#"): img(src="assets/facebook-icon.svg", alt="facebook logo icon")
+												li
+													a(href="#"): img(src="assets/linkedin-icon.svg", alt="linkedin logo icon")
+												li
+													a(href="#"): img(src="assets/dribble-icon.svg", alt="dribble logo icon")
+
+					.side-nav
 						ul
 							li
-								a(href="#") Studio
+								a(href="#"): img.active(src="assets/line.svg", alt="active nav line")
 							li
-								a(href="#") Skills
+								a(href="#"): img.next(src="assets/line.svg", alt="next nav line")
 							li
-								a(href="#") Process
-
-					.content-main.hidden
-						img.vertical-line-top(src="assets/vertical-line.svg", alt="top vertical line")
-
-						.aside
-							.aside-img-wrapper
-								img.studio-logo-icon-main.studio-icon(src="assets/studio-main-logo.svg", alt="studio icon")
-
-						.main
-							.studio-main-wrapper
-								h1.studio-header-main Design &amp; Devolopment
-								p.studio-body-text-main LunarCube studios is a front-end design and development studio based in the United States. We specialize in creating  uniquely dynamic websites that are both responsively expressive and engaging. Pulling the user into an expereience as well emmersing them in your brand.
-
-						img.vertical-line-bottom(src="assets/vertical-line.svg", alt="top vertical line")
-
-
-					.content-skills.hidden
-						.aside
-							.aside-img-wrapper
-								img(src="assets/studio-skills-logo.svg", alt="yellow and black version of the studio logo.")
-						.main
-							.skills-main-wrapper
-								.grid
-									.grid-sizer
-									.grid-item
-										img(src="assets/html-icon.svg" alt="html 5 logo design")
-										p Html5
-									.grid-item
-										img(src="assets/css-icon.svg" alt="Css 3 logo design")
-										p Css3
-									.grid-item
-										img(src="assets/jquery-icon.svg" alt="jquery logo design")
-										p jQuery
-									.grid-item
-										img(src="assets/jade-icon.svg" alt="jade logo design")
-										p Jade
-									.grid-item
-										img(src="assets/sass-icon.svg" alt="sass logo design")
-										p Sass
-									.grid-item
-										img(src="assets/bootstrap-icon.svg" alt="bootstrap logo design")
-										p Bootstrap
-									.grid-item
-										img(src="assets/ps-icon.svg", alt="Photoshop logo design")
-										p Photoshop
-									.grid-item
-										img(src="assets/id-icon.svg", alt="InDesign logo design")
-										p InDesign
-									.grid-item
-										img(src="assets/ai-icon.svg", alt="Illustrator logo design")
-										p Illustrator
-
-					.content-process.hidden
-						.aside
-							.aside-img-wrapper
-								img(src="assets/studio-process-logo.svg", alt="process logo")
-
-						.main
-							.process-main-wrapper
-								.slider-wrapper
-									#imageSlideshow
-										ul#slipprySlider
-											li
-												h1.process-header-text Analysis
-												a(href="#slide1")
-													img(src="assets/analysis-icon.svg", alt="analysis icon")
-												p.process-body-text The first step is an in depth analysis of your brand and the details of your particular project.
-											li
-												h1.process-header-text Content
-												a(href="#slide2")
-													img(src="assets/content-icon.svg", alt="content icon")
-												p.process-body-text We work with you to generate your content and give each project a unique presentation.
-											li
-												h1.process-header-text Wireframe
-												a(href="#slide3")
-													img(src="assets/wireframe-icon.svg", alt="wireframe icon")
-												p.sizer.process-body-text The next step is the production of a prototype using wireframes to sketch out the basic design, concepts and ideas of your project.
-											li
-												h1.process-header-text Design
-												a(href="#slide4")
-													img(src="assets/design-icon.svg", alt="design icon")
-												p.sizer.process-body-text LunarCube design will craft your brand identity into an aesthetically pleasing and unique experience that engages and informs the user.
-											li
-												h1.process-header-text Development
-												a(href="#slide5")
-													img(src="assets/development-icon.svg", alt="development icon")
-												p.sizer.process-body-text Development is clean, dynamic and responsive. Ensuring your content can be viewed and accessed on all modern devices.
-											li
-												h1.process-header-text Animation
-												a(href="#slide6")
-													img(src="assets/animation-icon.svg", alt="animation icon")
-												p.sizer.process-body-text Animations bring life and movement to your project, engaging the user and providing an overall unique user experience.
-											li
-												h1.process-header-text Testing
-												a(href="#slide7")
-													img(src="assets/testing-icon.svg", alt="testing icon")
-												p.sizer.process-body-text We rigorously test accross all major operating systems, browsers and mobile viewing devices to guarantee accessability of your product.
-											li
-												h1.process-header-text Follow-up
-												a(href="#slide8")
-													img(src="assets/follow-up-icon.svg", alt="follow up icon")
-												p.sizer.process-body-text Once your site has been lanuched we will follow up with you often and be with you every step of the way. Thats the LunarCube guarantee.
-
-										
-				
-
-				.contact.hidden
-					.content
-						.aside
-							.aside-img-wrapper
-								img.contact-icon(src="assets/contact-icon.svg", alt="contact logo")
-						.main
-							.contact-main-wrapper
-								.contact-vertical-center
-									h1.contact-header Contact Me:
-
-									.contact-cta
-										a(href="#")
-											p.contact-cta-text LunarCube@Gmail.com
-
-									.social-wrapper-contact
-										ul
-											li
-												a(href="#"): img(src="assets/twitter-icon.svg", alt="twitter logo icon")
-											li
-												a(href="#"): img(src="assets/facebook-icon.svg", alt="facebook logo icon")
-											li
-												a(href="#"): img(src="assets/linkedin-icon.svg", alt="linkedin logo icon")
-											li
-												a(href="#"): img(src="assets/dribble-icon.svg", alt="dribble logo icon")
-
-				.side-nav
-					ul
-						li#1
-							a(href="#"): img.active(src="assets/line.svg", alt="active nav line")
-						li#2
-							a(href="#"): img.next(src="assets/line.svg", alt="next nav line")
-						li#3
-							a(href="#"): img.inactive(src="assets/line.svg", alt="inactive nav line")
-						li#4
-							a(href="#"): img.inactive(src="assets/line.svg", alt="inactive nav line")
+								a(href="#"): img.inactive(src="assets/line.svg", alt="inactive nav line")
+							li
+								a(href="#"): img.inactive(src="assets/line.svg", alt="inactive nav line")
 
 					
 
@@ -259,4 +260,5 @@ body
 	script(type="text/javascript" src="js/myjavascript.js")
 	script(type="text/javascript" src="js/flowtype.js")
 	script(type="text/javascript" src="js/slippry.js")
+	//script(type="text/javascript" src="Js/jquery.fullPage.js")
 	
