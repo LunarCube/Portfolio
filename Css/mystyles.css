@@ -271,12 +271,28 @@ header .nav-btn img {
 }
 
 .vision {
-  padding-top: 3.5%;
   font-family: "Merriweather", serif;
+  width: 100%;
+  height: 100%;
+}
+.vision .aside {
+  width: 40%;
+  height: 100%;
+  min-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.vision .main {
+  width: 59.5%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
 }
 .vision .content {
   position: relative;
   width: 100%;
+  height: 100%;
+  padding-top: 5%;
 }
 .vision .content .vision-header {
   float: right;
@@ -286,7 +302,7 @@ header .nav-btn img {
   font-weight: 800;
   font-weight: bold;
   position: absolute;
-  top: 12%;
+  top: 22%;
   left: 25%;
   width: 63%;
 }
@@ -296,7 +312,7 @@ header .nav-btn img {
   font-size: 1.25em;
   width: 55%;
   position: absolute;
-  top: 63%;
+  top: 65%;
   left: 26.5%;
   line-height: 1.5;
 }
@@ -304,24 +320,6 @@ header .nav-btn img {
   margin-left: 6.5%;
   min-width: 395px;
   width: 26%;
-}
-.vision .scroll-icon {
-  transform: translateY(-68%);
-  text-align: center;
-  position: relative;
-}
-.vision .scroll-icon svg {
-  width: 2%;
-  min-width: 23px;
-}
-.vision .scroll-icon .shell {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 3;
-}
-.vision .scroll-icon .wheel {
-  fill: #FFFFFF;
-  animation: myScroll 1.5s infinite;
 }
 
 .studio {
@@ -748,8 +746,15 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     min-width: 228px;
   }
 
+  .vision .content .vision-header {
+    top: 23%;
+    left: 25%;
+    width: 63%;
+  }
   .vision .content .vision-body-text {
-    top: 60%;
+    top: 63%;
+    left: 26.5%;
+    width: 55%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -766,14 +771,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 1450px) {
-  .vision .content .vision-header {
-    top: 15.5%;
-    left: 25%;
-  }
-  .vision .content .vision-body-text {
-    top: 60.5%;
-  }
-
   .contact .content .main .contact-cta .contact-cta-text {
     position: relative;
     top: -135%;
@@ -785,39 +782,13 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 6%;
   }
 
-  .vision .content .vision-header {
-    top: 15%;
-    left: 26%;
-  }
-  .vision .content .vision-body-text {
-    top: 60%;
-  }
-
   .contact .content .main .contact-cta {
     margin: 8% auto;
-  }
-}
-@media screen and (max-width: 1350px) {
-  .vision .content .vision-header {
-    top: 15%;
-    left: 25%;
-  }
-  .vision .content .vision-body-text {
-    top: 58%;
   }
 }
 @media screen and (max-width: 1300px) {
   .landing .content {
     padding-top: 7%;
-  }
-
-  .vision .content .vision-header {
-    top: 16%;
-    left: 25.5%;
-  }
-  .vision .content .vision-body-text {
-    top: 59%;
-    left: 26.5%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -839,16 +810,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 8%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 4%;
-  }
-  .vision .content .vision-header {
-    top: 17%;
-    left: 25.5%;
-  }
-  .vision .content .vision-body-text {
-    top: 60%;
-    left: 26.5%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -878,16 +841,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 9%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 5%;
-  }
-  .vision .content .vision-header {
-    top: 17.5%;
-    left: 25.5%;
-  }
-  .vision .content .vision-body-text {
-    top: 58%;
-    left: 26.5%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -909,16 +864,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 10%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 5%;
-  }
-  .vision .content .vision-header {
-    top: 18%;
-    left: 25.5%;
-  }
-  .vision .content .vision-body-text {
-    top: 58.5%;
-    left: 26.5%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -940,16 +887,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 11%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 5.5%;
-  }
-  .vision .content .vision-header {
-    top: 18.5%;
-    left: 25%;
-  }
-  .vision .content .vision-body-text {
-    top: 56.5%;
-    left: 26%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -974,19 +913,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 12%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 5.85%;
-  }
-  .vision .content .vision-header {
-    top: 19%;
-    left: 25%;
-  }
-  .vision .content .vision-body-text {
-    top: 56%;
-    left: 26%;
-  }
-  .vision .scroll-icon {
-    transform: translateY(-50%);
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1032,17 +960,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 13%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 6.5%;
-  }
-  .vision .content .vision-header {
-    top: 21.5%;
-    left: 25%;
-    width: 65%;
-  }
-  .vision .content .vision-body-text {
-    top: 55%;
-    left: 26.5%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1096,18 +1015,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 100%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 7.5%;
-  }
-  .vision .content .vision-header {
-    top: 25%;
-    left: 25%;
-    width: 65%;
-  }
-  .vision .content .vision-body-text {
-    top: 56.5%;
-    left: 26.5%;
-    width: 50%;
   }
   .vision .content img {
     margin-left: 9.5%;
@@ -1184,18 +1093,8 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     margin-top: 3.5%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 10%;
-  }
-  .vision .content .vision-header {
-    top: 25.5%;
-    left: 23.5%;
-    width: 66.5%;
-  }
-  .vision .content .vision-body-text {
-    top: 57%;
-    left: 25%;
-    width: 50%;
   }
   .vision .content img {
     margin-left: 10.5%;
@@ -1239,25 +1138,12 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 750px) {
-  .vision {
+  .vision .content {
     padding-top: 9.5%;
-  }
-  .vision .content .vision-header {
-    top: 20%;
-    left: 23.5%;
-    width: 60%;
-  }
-  .vision .content .vision-body-text {
-    top: 56%;
-    left: 25%;
-    width: 50%;
   }
   .vision .content img {
     margin-left: 19%;
     min-width: 400px;
-  }
-  .vision .scroll-icon {
-    transform: translateY(15%);
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1341,25 +1227,12 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 17%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 12.5%;
-  }
-  .vision .content .vision-header {
-    top: 20%;
-    left: 25%;
-    width: 66%;
-  }
-  .vision .content .vision-body-text {
-    top: 58%;
-    left: 25%;
-    width: 50%;
   }
   .vision .content img {
     margin-left: 20.5%;
     min-width: 375px;
-  }
-  .vision .scroll-icon {
-    transform: translateY(15%);
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1390,7 +1263,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 675px) {
-  .vision {
+  .vision .content {
     padding-top: 13%;
   }
 }
@@ -1399,25 +1272,11 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 18%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 13.5%;
-  }
-  .vision .content .vision-header {
-    left: 20%;
-  }
-  .vision .content .vision-body-text {
-    top: 60%;
-    left: 20%;
-    width: 70%;
   }
   .vision .content img {
     margin-left: 18%;
-  }
-  .vision .scroll-icon {
-    transform: translateY(30%);
-  }
-  .vision .scroll-icon svg {
-    width: 3.5%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1505,27 +1364,11 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     margin: 18% auto;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 16%;
   }
   .vision .content img {
     margin-left: 16%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 16%;
-    left: 21%;
-  }
-  .vision .content .vision-body-text {
-    width: 62%;
-    top: 62%;
-    left: 21%;
-  }
-  .vision .scroll-icon {
-    transform: translateY(40%);
-  }
-  .vision .scroll-icon svg {
-    width: 4%;
   }
 }
 @media screen and (max-width: 550px) {
@@ -1547,25 +1390,12 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     margin-top: 5%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 22%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 16%;
-    left: 21.5%;
-  }
-  .vision .content .vision-body-text {
-    width: 62%;
-    top: 60%;
-    left: 21%;
   }
   .vision .content img {
     margin-left: 13%;
     min-width: 350px;
-  }
-  .vision .scroll-icon {
-    transform: translateY(25%);
   }
 
   .studio .content-skills .aside {
@@ -1617,24 +1447,11 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 515px) {
-  .vision {
+  .vision .content {
     padding-top: 22.5%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 13%;
-    left: 21.5%;
-  }
-  .vision .content .vision-body-text {
-    width: 70%;
-    top: 65%;
-    left: 21%;
   }
   .vision .content img {
     margin-left: 11.5%;
-  }
-  .vision .scroll-icon {
-    transform: translateY(30%);
   }
 }
 @media screen and (max-width: 500px) {
@@ -1642,24 +1459,23 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 25%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 23%;
   }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 12%;
-    left: 21%;
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    max-height: 20%;
   }
-  .vision .content .vision-body-text {
-    width: 70%;
-    top: 66%;
-    left: 21%;
+  .vision .content .main {
+    float: none;
+    width: 100%;
+    height: 80%;
+    max-height: 80%;
   }
   .vision .content img {
     margin-left: 11.5%;
-  }
-  .vision .scroll-icon {
-    transform: translateY(75%);
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1829,25 +1645,12 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 475px) {
-  .vision {
+  .vision .content {
     padding-top: 25%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 12%;
-    left: 21%;
-  }
-  .vision .content .vision-body-text {
-    width: 70%;
-    top: 66%;
-    left: 21%;
   }
   .vision .content img {
     margin-left: 11.5%;
     min-width: 340px;
-  }
-  .vision .scroll-icon {
-    transform: translateY(75%);
   }
 }
 @media screen and (max-width: 450px) {
@@ -1876,28 +1679,12 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     width: 80%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 29%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 10%;
-    left: 15%;
-  }
-  .vision .content .vision-body-text {
-    width: 75%;
-    top: 68%;
-    left: 15%;
   }
   .vision .content img {
     margin-left: 10%;
     min-width: 330px;
-  }
-  .vision .scroll-icon {
-    transform: translateY(100%);
-  }
-  .vision .scroll-icon svg {
-    min-width: 20px;
   }
 }
 @media screen and (max-width: 409px) {
@@ -1905,124 +1692,92 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     padding-top: 30%;
   }
 
-  .studio .content-main .main {
-    float: none;
-    width: 100%;
-    height: 80%;
-    max-height: 80%;
-  }
-  .studio .content-main .main .studio-main-wrapper .studio-header-main {
-    left: 8%;
-    top: 35%;
-    width: 80%;
-  }
-  .studio .content-main .main .studio-main-wrapper .studio-body-text-main {
-    left: 9%;
-    top: 58%;
-    width: 85%;
-  }
-  .studio .content-skills .main .skills-main-wrapper {
-    margin: 10% auto 0;
-    padding-top: 23%;
-    max-height: 100%;
-  }
-  .studio .content-process .aside {
-    width: 100%;
-    height: 20%;
-    min-height: 20%;
-    max-height: 20%;
-  }
-  .studio .content-process .aside .aside-img-wrapper img {
-    min-height: 100px;
-    max-height: 100px;
-  }
-  .studio .content-process .main {
-    float: none;
-    width: 100%;
-    height: 100%;
-  }
-  .studio .content-process .main .process-main-wrapper {
-    margin: 10% auto 0;
-    padding-top: 2.5%;
-    max-height: 100%;
-  }
-  .studio .content-process .main .process-main-wrapper .slider-wrapper {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
-    margin: 5% 0 0 0;
-  }
-  .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    max-height: 560px;
-  }
-  .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider {
-    width: 100%;
-  }
-  .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li .process-header-text {
-    width: 100%;
-    font-size: 2.7rem;
-  }
-  .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li .process-body-text {
-    font-size: 1.7rem;
-    width: 95%;
-  }
-  .studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li a img {
-    min-width: 115px;
-    max-height: 115px;
-    margin: 3.5% auto;
-  }
-
-  .vision {
+  .vision .content {
     padding-top: 32%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 10%;
-    left: 10%;
-  }
-  .vision .content .vision-body-text {
-    width: 80%;
-    top: 70%;
-    left: 10%;
   }
   .vision .content img {
     margin-left: 6%;
     min-width: 315px;
   }
-  .vision .scroll-icon {
-    transform: translateY(150%);
-  }
-  .vision .scroll-icon svg {
-    min-width: 20px;
-  }
 }
+.studio .content-main .main {
+  float: none;
+  width: 100%;
+  height: 80%;
+  max-height: 80%;
+}
+.studio .content-main .main .studio-main-wrapper .studio-header-main {
+  left: 8%;
+  top: 35%;
+  width: 80%;
+}
+.studio .content-main .main .studio-main-wrapper .studio-body-text-main {
+  left: 9%;
+  top: 58%;
+  width: 85%;
+}
+.studio .content-skills .main .skills-main-wrapper {
+  margin: 10% auto 0;
+  padding-top: 23%;
+  max-height: 100%;
+}
+.studio .content-process .aside {
+  width: 100%;
+  height: 20%;
+  min-height: 20%;
+  max-height: 20%;
+}
+.studio .content-process .aside .aside-img-wrapper img {
+  min-height: 100px;
+  max-height: 100px;
+}
+.studio .content-process .main {
+  float: none;
+  width: 100%;
+  height: 100%;
+}
+.studio .content-process .main .process-main-wrapper {
+  margin: 10% auto 0;
+  padding-top: 2.5%;
+  max-height: 100%;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 5% 0 0 0;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  max-height: 560px;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider {
+  width: 100%;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li .process-header-text {
+  width: 100%;
+  font-size: 2.7rem;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li .process-body-text {
+  font-size: 1.7rem;
+  width: 95%;
+}
+.studio .content-process .main .process-main-wrapper .slider-wrapper #imageSlideshow #slipprySlider li a img {
+  min-width: 115px;
+  max-height: 115px;
+  margin: 3.5% auto;
+}
+
 @media screen and (max-width: 375px) {
-  .vision {
+  .vision .content {
     padding-top: 34%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 10%;
-    left: 10%;
-  }
-  .vision .content .vision-body-text {
-    width: 80%;
-    top: 72%;
-    left: 10%;
   }
   .vision .content img {
     margin-left: 5%;
     min-width: 300px;
-  }
-  .vision .scroll-icon {
-    transform: translateY(200%);
-  }
-  .vision .scroll-icon svg {
-    min-width: 20px;
   }
 }
 @media screen and (max-width: 350px) {
@@ -2036,28 +1791,12 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     margin-top: 7%;
   }
 
-  .vision {
+  .vision .content {
     padding-top: 40%;
-  }
-  .vision .content .vision-header {
-    width: 70%;
-    top: 10%;
-    left: 8%;
-  }
-  .vision .content .vision-body-text {
-    width: 90%;
-    top: 80%;
-    left: 8%;
   }
   .vision .content img {
     margin-left: 4%;
     min-width: 265px;
-  }
-  .vision .scroll-icon {
-    transform: translateY(310%);
-  }
-  .vision .scroll-icon svg {
-    min-width: 20px;
   }
 
   .studio .content-main .main {
