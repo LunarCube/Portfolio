@@ -113,7 +113,7 @@ $(document).ready(function(){
 	$('.vision-body-text').flowtype({
 		minimum   : 320,
 	 	maximum   : 1600,
-	 	minFont   : 16,
+	 	minFont   : 18,
 	 	maxFont   : 20,
 	 	fontRatio : 30
 	});
