@@ -165,7 +165,7 @@ $(document).ready(function(){
 
 		var viewportWidth = $(window).width();
 
-		if(viewportWidth <= 750 && viewportWidth > 400){
+		if(viewportWidth <= 750 && viewportWidth > 450){
 			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
@@ -181,7 +181,7 @@ $(document).ready(function(){
 			 	maxFont   : 20,
 			 	fontRatio : 30
 			});
-		}else if(viewportWidth <= 400){
+		}else if(viewportWidth <= 450){
 			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
@@ -196,7 +196,7 @@ $(document).ready(function(){
 
 		var viewportWidth = $(window).width();
 
-		if(viewportWidth <= 750 && viewportWidth > 400){
+		if(viewportWidth <= 750 && viewportWidth > 450){
 			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
@@ -229,12 +229,12 @@ $(document).ready(function(){
 			 	maxFont   : 20,
 			 	fontRatio : 30
 			});
-		}else if(viewportWidth <= 400){
+		}else if(viewportWidth <= 450){
 			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 40,
-			 	maxFont   : 90,
+			 	maxFont   : 40,
 			 	fontRatio : 10.8
 			});
 		};

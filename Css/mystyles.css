@@ -1506,7 +1506,7 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     top: 35%;
     left: 10%;
     width: 80%;
-    min-width: 320px;
+    min-width: 506px;
     max-width: 520px;
   }
   .vision .content .main .vision-main-wrapper .vision-body-text-main {
@@ -1546,6 +1546,43 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 @media screen and (max-width: 650px) {
   .landing .content {
     padding-top: 18%;
+  }
+
+  .vision .vertical-line-top, .vision .vertical-line-bottom {
+    display: none;
+  }
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    background-color: #FF7D52;
+  }
+  .vision .content .aside .aside-img-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .vision .content .aside .aside-img-wrapper img {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  .vision .content .main {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .vision .content .main .vision-main-wrapper .vision-header-main {
+    text-align: center;
+    top: 35%;
+    left: 8%;
+    width: 80%;
+    min-width: 506px;
+    max-width: 520px;
+  }
+  .vision .content .main .vision-main-wrapper .vision-body-text-main {
+    text-align: center;
+    top: 60%;
+    left: 8%;
+    width: 80%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1596,6 +1633,43 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .landing .scroll-icon svg {
     margin-top: 4%;
+  }
+
+  .vision .vertical-line-top, .vision .vertical-line-bottom {
+    display: none;
+  }
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    background-color: #FF7D52;
+  }
+  .vision .content .aside .aside-img-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .vision .content .aside .aside-img-wrapper img {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  .vision .content .main {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .vision .content .main .vision-main-wrapper .vision-header-main {
+    text-align: center;
+    top: 35%;
+    left: 11%;
+    width: 80%;
+    min-width: 400px;
+    max-width: 420px;
+  }
+  .vision .content .main .vision-main-wrapper .vision-body-text-main {
+    text-align: center;
+    top: 68%;
+    left: 7%;
+    width: 85%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1675,14 +1749,17 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     float: none;
   }
   .vision .content .main .vision-main-wrapper .vision-header-main {
-    top: 25%;
-    left: 3%;
-    width: 90%;
-    min-width: 320px;
+    text-align: center;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    min-width: 400px;
+    max-width: 420px;
   }
   .vision .content .main .vision-main-wrapper .vision-body-text-main {
-    top: 80%;
-    left: 3%;
+    text-align: center;
+    top: 68%;
+    left: 7%;
     width: 85%;
   }
 
@@ -1737,6 +1814,43 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 @media screen and (max-width: 500px) {
   .landing .content {
     padding-top: 25%;
+  }
+
+  .vision .vertical-line-top, .vision .vertical-line-bottom {
+    display: none;
+  }
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    background-color: #FF7D52;
+  }
+  .vision .content .aside .aside-img-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .vision .content .aside .aside-img-wrapper img {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  .vision .content .main {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .vision .content .main .vision-main-wrapper .vision-header-main {
+    text-align: center;
+    top: 35%;
+    left: 6%;
+    width: 80%;
+    min-width: 400px;
+    max-width: 420px;
+  }
+  .vision .content .main .vision-main-wrapper .vision-body-text-main {
+    text-align: center;
+    top: 68%;
+    left: 7%;
+    width: 85%;
   }
 
   .studio .vertical-line-top, .studio .vertical-line-bottom {
@@ -1914,6 +2028,43 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     max-width: 25px;
   }
 
+  .vision .vertical-line-top, .vision .vertical-line-bottom {
+    display: none;
+  }
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    background-color: #FF7D52;
+  }
+  .vision .content .aside .aside-img-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .vision .content .aside .aside-img-wrapper img {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  .vision .content .main {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .vision .content .main .vision-main-wrapper .vision-header-main {
+    text-align: center;
+    top: 35%;
+    left: 2%;
+    width: 80%;
+    min-width: 380px;
+    max-width: 380px;
+  }
+  .vision .content .main .vision-main-wrapper .vision-body-text-main {
+    text-align: center;
+    top: 64%;
+    left: 7%;
+    width: 85%;
+  }
+
   .studio .content-main .main {
     float: none;
     width: 100%;
@@ -1934,6 +2085,43 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 @media screen and (max-width: 409px) {
   .landing .content {
     padding-top: 30%;
+  }
+
+  .vision .vertical-line-top, .vision .vertical-line-bottom {
+    display: none;
+  }
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    background-color: #FF7D52;
+  }
+  .vision .content .aside .aside-img-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .vision .content .aside .aside-img-wrapper img {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  .vision .content .main {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .vision .content .main .vision-main-wrapper .vision-header-main {
+    text-align: center;
+    top: 28%;
+    left: 13%;
+    width: 80%;
+    min-width: 270px;
+    max-width: 270px;
+  }
+  .vision .content .main .vision-main-wrapper .vision-body-text-main {
+    text-align: center;
+    top: 64%;
+    left: 7%;
+    width: 85%;
   }
 
   .studio .content-main .main {
@@ -2018,6 +2206,44 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     margin-top: 7%;
   }
 
+  .vision .vertical-line-top, .vision .vertical-line-bottom {
+    display: none;
+  }
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    background-color: #FF7D52;
+  }
+  .vision .content .aside .aside-img-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .vision .content .aside .aside-img-wrapper img {
+    max-height: 100px;
+    min-height: 100px;
+    min-width: 250px;
+  }
+  .vision .content .main {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .vision .content .main .vision-main-wrapper .vision-header-main {
+    text-align: center;
+    top: 28%;
+    left: 10%;
+    width: 80%;
+    min-width: 270px;
+    max-width: 270px;
+  }
+  .vision .content .main .vision-main-wrapper .vision-body-text-main {
+    text-align: center;
+    top: 64%;
+    left: 7%;
+    width: 85%;
+  }
+
   .studio .content-main .main {
     float: none;
     width: 100%;
@@ -2064,6 +2290,43 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
   .pop-out-wrapper .nav-pop-out .nav-btn-x img {
     max-width: 20px;
+  }
+
+  .vision .vertical-line-top, .vision .vertical-line-bottom {
+    display: none;
+  }
+  .vision .content .aside {
+    width: 100%;
+    height: 20%;
+    min-height: 20%;
+    background-color: #FF7D52;
+  }
+  .vision .content .aside .aside-img-wrapper {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .vision .content .aside .aside-img-wrapper img {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  .vision .content .main {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .vision .content .main .vision-main-wrapper .vision-header-main {
+    text-align: center;
+    top: 28%;
+    left: 2.5%;
+    width: 80%;
+    min-width: 270px;
+    max-width: 270px;
+  }
+  .vision .content .main .vision-main-wrapper .vision-body-text-main {
+    text-align: center;
+    top: 64%;
+    left: 7%;
+    width: 85%;
   }
 
   .studio .content-main .main {
