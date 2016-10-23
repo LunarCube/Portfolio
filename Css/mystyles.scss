@@ -882,6 +882,29 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 @media screen and (max-width: 1450px) {
 
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            left: 30.8%;
+            top: 24%;
+            width: 50%;
+          }
+          .vision-body-text-main{
+            top: 57%;
+            left: 30.8%;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+
   .contact{
     .content{
       .main{
@@ -912,13 +935,63 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
     }
   }
+}
 
+@media screen and (max-width: 1350px){
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            left: 30.8%;
+            top: 25%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 54%;
+            left: 30.8%;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1300px) {
   .landing {
     .content{
       padding-top: 7%;
+    }
+  }
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            left: 30%;
+            top: 25%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 30%;
+            width: 50%;
+          }
+        }
+      }
     }
   }
 
@@ -931,9 +1004,9 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       .main{
         .studio-main-wrapper{
           .studio-header-main{
-            left: 30.5%;
             top: 21%;
-            width:50%;
+            left: 30.5%;
+            width: 70%;
           }
           .studio-body-text-main{
             top: 52%;
@@ -949,6 +1022,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing {
     .content{
       padding-top: 8%;
+    }
+  }
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 29%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 29%;
+            width: 50%;
+          }
+        }
+      }
     }
   }
 
@@ -1009,6 +1106,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
 
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 28%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 28%;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+
   .studio{
       .vertical-line-top, .vertical-line-bottom{
         max-height: 100px;
@@ -1040,6 +1161,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
 
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 27%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 27%;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+
   .studio{
       .vertical-line-top, .vertical-line-bottom{
         max-height: 100px;
@@ -1068,6 +1213,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing {
     .content{
       padding-top: 11%;
+    }
+  }
+
+   .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 26%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 26%;
+            width: 60%;
+          }
+        }
+      }
     }
   }
 
@@ -1107,6 +1276,31 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       padding-top: 12%;
     }
   }
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 25%;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+
 
   .studio{
     .vertical-line-top, .vertical-line-bottom{
@@ -1184,6 +1378,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
 
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 24%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 24%;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+
   .landing {
     .content{
       padding-top: 13%;
@@ -1220,6 +1438,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
 }
 
 @media screen and (max-width: 950px){
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 22.5%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 22.5%;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
 
   .studio{
     .vertical-line-top, .vertical-line-bottom{
@@ -1271,6 +1513,30 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
 
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 21%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 55%;
+            left: 21%;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+
   .studio{
     .vertical-line-top, .vertical-line-bottom{
       max-height: 100px;
@@ -1305,6 +1571,52 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing {
     .content{
       padding-top: 14%;
+    }
+  }
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      display: none;
+    }
+
+    .content{
+      .aside{
+        width: 100%;
+        height: 20%;
+        min-height: 20%;
+        background-color: #FF7D52;
+
+        .aside-img-wrapper{
+          max-height: 100%;
+          max-width: 100%;
+
+          img{
+            max-height: 100px;
+            min-height: 100px;
+          }
+        }
+      }
+      .main{
+        width: 100%;
+        height: 80%;
+        float: none;
+
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 32%;
+            left: 10%;
+            width: 50%;
+            min-width: 629px;
+            text-align: center;
+          }
+          .vision-body-text-main{
+            top: 63%;
+            left: 10%;
+            width: 80%;
+            text-align: center;
+          }
+        }
+      }
     }
   }
 
@@ -1371,6 +1683,50 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
     .scroll-icon svg{
       margin-top: 3.5%;
+    }
+  }
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      display: none;
+    }
+
+    .content{
+      .aside{
+        width: 100%;
+        height: 20%;
+        min-height: 20%;
+        background-color: #FF7D52;
+
+        .aside-img-wrapper{
+          max-height: 100%;
+          max-width: 100%;
+
+          img{
+            max-height: 100px;
+            min-height: 100px;
+          }
+        }
+      }
+      .main{
+        width: 100%;
+        height: 80%;
+        float: none;
+
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 32%;
+            left: 9%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 63%;
+            left: 9%;
+            width: 85%;
+          }
+        }
+      }
     }
   }
 
@@ -1449,6 +1805,50 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   }
 }
 @media screen and (max-width: 750px) {
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      display: none;
+    }
+
+    .content{
+      .aside{
+        width: 100%;
+        height: 20%;
+        min-height: 20%;
+        background-color: #FF7D52;
+
+        .aside-img-wrapper{
+          max-height: 100%;
+          max-width: 100%;
+
+          img{
+            max-height: 100px;
+            min-height: 100px;
+          }
+        }
+      }
+      .main{
+        width: 100%;
+        height: 80%;
+        float: none;
+
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 32%;
+            left: 5%;
+            width: 50%;
+            min-width: 629px;
+          }
+          .vision-body-text-main{
+            top: 60%;
+            left: 5%;
+            width: 85%;
+          }
+        }
+      }
+    }
+  }
 
   .studio{
     .vertical-line-top, .vertical-line-bottom{
@@ -1559,6 +1959,53 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
   .landing{
     .content{
       padding-top: 17%;
+    }
+  }
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      display: none;
+    }
+
+    .content{
+      .aside{
+        width: 100%;
+        height: 20%;
+        min-height: 20%;
+        background-color: #FF7D52;
+
+        .aside-img-wrapper{
+          max-height: 100%;
+          max-width: 100%;
+
+          img{
+            max-height: 100px;
+            min-height: 100px;
+          }
+        }
+      }
+      .main{
+        width: 100%;
+        height: 80%;
+        float: none;
+
+        .vision-main-wrapper{
+          .vision-header-main{
+            text-align: center;
+            top: 35%;
+            left: 10%;
+            width: 80%;
+            min-width: 320px;
+            max-width: 520px;
+          }
+          .vision-body-text-main{
+            text-align: center;
+            top: 60%;
+            left: 10%;
+            width: 80%;
+          }
+        }
+      }
     }
   }
 
@@ -1773,6 +2220,50 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
     .scroll-icon svg{
       margin-top: 5%;
+    }
+  }
+
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      display: none;
+    }
+
+    .content{
+      .aside{
+        width: 100%;
+        height: 20%;
+        min-height: 20%;
+        background-color: #FF7D52;
+
+        .aside-img-wrapper{
+          max-height: 100%;
+          max-width: 100%;
+
+          img{
+            max-height: 100px;
+            min-height: 100px;
+          }
+        }
+      }
+      .main{
+        width: 100%;
+        height: 80%;
+        float: none;
+
+        .vision-main-wrapper{
+          .vision-header-main{
+            top: 25%;
+            left: 3%;
+            width: 90%;
+            min-width: 320px;
+          }
+          .vision-body-text-main{
+            top: 80%;
+            left: 3%;
+            width: 85%;
+          }
+        }
+      }
     }
   }
 

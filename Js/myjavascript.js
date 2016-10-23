@@ -26,6 +26,11 @@ $(document).ready(function(){
 		}else if(viewportWidth <= 500 && $('.content-skills').is(':visible')){
 			$('.studio-side-nav').css('top', '25%')
 		};
+		if(viewportWidth <= 850){
+			$('.vision-icon').attr('src', 'assets/vision-mobile-logo.svg')
+		}else if(viewportWidth > 850){
+			$('.vision-icon').attr('src', 'assets/vision-icon.svg')
+		};
 
 		if(viewportWidth <= 650 && $('.content-skills').is(':visible')){
 			$('.studio-side-nav').css('transform', 'translateY(-50%)')
@@ -87,6 +92,11 @@ $(document).ready(function(){
 		}else if(viewportWidth > 500){
 			$('.contact-icon').attr('src', 'assets/contact-icon.svg');
 			$('.studio-icon').attr('src', 'assets/studio-main-logo.svg')
+		};
+		if(viewportWidth <= 850){
+			$('.vision-icon').attr('src', 'assets/vision-mobile-logo.svg')
+		}else if(viewportWidth > 850){
+			$('.vision-icon').attr('src', 'assets/vision-icon.svg')
 		};
 
 		var viewportWidth = $(window).width();
@@ -151,11 +161,42 @@ $(document).ready(function(){
 	});
 
 	////////////////////////////////////////////////////////responsive flowType
+	$(window).load(function(){
+
+		var viewportWidth = $(window).width();
+
+		if(viewportWidth <= 750 && viewportWidth > 400){
+			$('.vision-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 48,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
+			$('.vision-body-text-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+		}else if(viewportWidth <= 400){
+			$('.vision-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 40,
+			 	maxFont   : 40,
+			 	fontRatio : 10.8
+			});
+		};
+	});
+
 	$(window).resize(function(){
 
 		var viewportWidth = $(window).width();
 
-		if(viewportWidth <= 500 && viewportWidth > 400){
+		if(viewportWidth <= 750 && viewportWidth > 400){
 			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
@@ -278,52 +319,6 @@ $(document).ready(function(){
 		};
 	});
 
-	$(window).resize(function(){
-
-		var viewportWidth = $(window).width();
-		if(viewportWidth <= 500 && viewportWidth > 400){
-			$('.vision-header-main').flowtype({
-				minimum   : 320,
-			 	maximum   : 1600,
-			 	minFont   : 48,
-			 	maxFont   : 90,
-			 	fontRatio : 10.8
-			});
-
-			$('.vision-body-text-main').flowtype({
-				minimum   : 320,
-			 	maximum   : 1600,
-			 	minFont   : 16,
-			 	maxFont   : 20,
-			 	fontRatio : 30
-			});
-		}else if(viewportWidth > 500){
-
-			$('.vision-header-main').flowtype({
-				minimum   : 320,
-			 	maximum   : 1600,
-			 	minFont   : 59,
-			 	maxFont   : 90,
-			 	fontRatio : 10.8
-			});
-
-			$('.vision-body-text-main').flowtype({
-				minimum   : 320,
-			 	maximum   : 1600,
-			 	minFont   : 16,
-			 	maxFont   : 20,
-			 	fontRatio : 30
-			});
-		}else if(viewportWidth <= 400){
-			$('.vision-header-main').flowtype({
-				minimum   : 320,
-			 	maximum   : 1600,
-			 	minFont   : 40,
-			 	maxFont   : 90,
-			 	fontRatio : 10.8
-			});
-		};
-	});
 ///////////////////////////////////////////////////////responsive type end
 ///////////////////////////////////////////////////////mason
 	$(window).load(function(){
