@@ -311,7 +311,7 @@ header{
     .vertical-line-top, .vertical-line-bottom{
     position: absolute;
     left: 50%;
-    height: 22%;
+    height: 20%;
     max-width: 3px;
     }
     .vertical-line-top{
@@ -362,8 +362,8 @@ header{
           font-size: 5.625em;
           font-weight: 800;
           position: absolute;
-          top: 19.5%;
-          left: 19%;
+          top: 18%;
+          left: 25%;
           width: 65%;
         }
         .vision-body-text-main{
@@ -373,8 +373,8 @@ header{
           font-size: 1.25em;
           width: 48%;
           position: absolute;
-          top: 60%;
-          left: 28%;
+          top: 62%;
+          left: 28.5%;
           line-height: 1.5;
           text-align: left;
         }
@@ -835,6 +835,29 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
     }
   }
 
+  .vision{
+    .vertical-line-top, .vertical-line-bottom{
+      max-height: 100px;
+    }
+
+    .content{
+      .main{
+        .vision-main-wrapper{
+          .vision-header-main{
+            left: 30.8%;
+            top: 23%;
+            width:50%;
+          }
+          .vision-body-text-main{
+            top: 58%;
+            left: 30.8%;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+
   .studio{
     .vertical-line-top, .vertical-line-bottom{
       max-height: 100px;
@@ -856,7 +879,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
     }
   }
-
 }
 @media screen and (max-width: 1450px) {
 
@@ -873,7 +895,6 @@ svg(version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="h
       }
     } 
   }
-
 }
 @media screen and (max-width: 1400px) {
   .landing {

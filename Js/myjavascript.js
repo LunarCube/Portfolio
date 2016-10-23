@@ -151,13 +151,12 @@ $(document).ready(function(){
 	});
 
 	////////////////////////////////////////////////////////responsive flowType
-
-	$(window).load(function(){
+	$(window).resize(function(){
 
 		var viewportWidth = $(window).width();
 
 		if(viewportWidth <= 500 && viewportWidth > 400){
-			$('.studio-header-main', 'vision-header-main').flowtype({
+			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 48,
@@ -165,7 +164,24 @@ $(document).ready(function(){
 			 	fontRatio : 10.8
 			});
 
-			$('.studio-body-text-main', '.vision-body-text-main').flowtype({
+			$('.vision-body-text-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+		}else if(viewportWidth > 500){
+
+			$('.vision-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 59,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
+			$('.vision-body-text-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 16,
@@ -173,7 +189,86 @@ $(document).ready(function(){
 			 	fontRatio : 30
 			});
 		}else if(viewportWidth <= 400){
-			$('.studio-header-main', '.vision-header-main').flowtype({
+			$('.vision-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 40,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+		};
+	});
+
+	$(window).load(function(){
+
+		var viewportWidth = $(window).width();
+
+		if(viewportWidth <= 500 && viewportWidth > 400){
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 48,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
+			$('.studio-body-text-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+		}else if(viewportWidth <= 400){
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 40,
+			 	maxFont   : 40,
+			 	fontRatio : 10.8
+			});
+		};
+	});
+
+
+	$(window).resize(function(){
+
+		var viewportWidth = $(window).width();
+		if(viewportWidth <= 500 && viewportWidth > 400){
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 48,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
+			$('.studio-body-text-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+		}else if(viewportWidth > 500){
+
+			$('.studio-header-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 59,
+			 	maxFont   : 90,
+			 	fontRatio : 10.8
+			});
+
+			$('.studio-body-text-main').flowtype({
+				minimum   : 320,
+			 	maximum   : 1600,
+			 	minFont   : 16,
+			 	maxFont   : 20,
+			 	fontRatio : 30
+			});
+		}else if(viewportWidth <= 400){
+			$('.studio-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 40,
@@ -187,7 +282,7 @@ $(document).ready(function(){
 
 		var viewportWidth = $(window).width();
 		if(viewportWidth <= 500 && viewportWidth > 400){
-			$('.studio-header-main', '.vision-header-main').flowtype({
+			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 48,
@@ -195,7 +290,7 @@ $(document).ready(function(){
 			 	fontRatio : 10.8
 			});
 
-			$('.studio-body-text-main', '.vision-body-text-main').flowtype({
+			$('.vision-body-text-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 16,
@@ -204,7 +299,7 @@ $(document).ready(function(){
 			});
 		}else if(viewportWidth > 500){
 
-			$('.studio-header-main', '.vision-header-main').flowtype({
+			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 59,
@@ -212,7 +307,7 @@ $(document).ready(function(){
 			 	fontRatio : 10.8
 			});
 
-			$('.studio-body-text-main','.vision-body-text-main').flowtype({
+			$('.vision-body-text-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 16,
@@ -220,7 +315,7 @@ $(document).ready(function(){
 			 	fontRatio : 30
 			});
 		}else if(viewportWidth <= 400){
-			$('.studio-header-main', '.vision-header-main').flowtype({
+			$('.vision-header-main').flowtype({
 				minimum   : 320,
 			 	maximum   : 1600,
 			 	minFont   : 40,
